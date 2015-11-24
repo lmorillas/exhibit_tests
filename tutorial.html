@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>KML Layers</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+
+function initMap() {
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 11,
+    center: new google.maps.LatLng(41.6561, -0.8773)
+  });
+
+  var ctaLayer = new google.maps.KmlLayer({
+    url: 'http://lmorillas.github.io/exhibit_tests/aragon.kmz',
+    map: map
+  });
+}
+
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADtA18l9WU0Q4hi2TC1a4v4IEvUoALzXM&callback=initMap">
+    </script>
+  </body>
+</html>
