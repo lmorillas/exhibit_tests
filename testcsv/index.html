@@ -1,101 +1,115 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>A Exhibit from a tsv or csv file</title>
-    <link rel='stylesheet' href='http://www.simile-widgets.org/styles/common.css' type='text/css' />
-</head>
+  <head>
+    <title>Italian Soccer - Serie A Champions</title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    
+    <!--
+    <link href="italianSoccer.txt" type="text/tsv" rel="exhibit/data" data-ex-properties="label,url:url,image:url,City,Region,latlng,Winners:number,Runner-up:number,ChampionshipSeasons" data-ex-has-column-titles="true"/>
+    -->
+    
+    <link href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTc6sw9Bw43BxuYENWT-MGMmK55YBucg8etttHbQNW_TTyp9PfX5B3cJRfcGk2SUEZp5LO5c-WBhOSu/pub?gid=180101019&single=true&output=csv" type="text/csv" rel="exhibit/data" data-ex-properties="label,url:url,image:url,City,Region,latlng,Winners:number,Runner-up:number,ChampionshipSeasons" data-ex-has-column-titles="true"/>
+    
+    
+    <link rel='stylesheet' href='//www.simile-widgets.org/styles/common.css' type='text/css' />
 
-<body>
+    <!-- Replace the URL here with http://api.simile-widgets.org/exhibit/current/exhibit-api.js -->
+    <script src="//api.simile-widgets.org/exhibit/current/exhibit-api.js"></script>
+    <!-- Replace the URL here with http://api.simile-widgets.org/exhibit/current/extensions/map/map-extension.js -->
+    <link rel="exhibit-extension" href="//api.simile-widgets.org/exhibit/current/extensions/map/map-extension.js" data-ex-apikey="AIzaSyCDO3EXWKJms5T38db48czFJZDunhYIzn8" />
+    <!-- Replace the above apiKey with your own (this one will eventually stop working) -->
+<style>
+.team td {
+padding: 1px
+}
+</style>
+  </head>
+  <body>
     <ul id="path">
       <li><a href="http://www.simile-widgets.org/">SIMILE Widgets</a></li>
       <li><a href="http://www.simile-widgets.org/exhibit/">Exhibit</a></li>
       <li><a href="..">Demos</a></li>
-      <li><span>CSV Importer Tutorial</span></li>
+      <li><span>CSV Importer</span></li>
     </ul>
+    <h1 style="text-align:center">Italian Soccer - Serie A Champions</h1>
+    
+    This example demonstrates importing data from a tsv/csv file.
+    A tutorial/documentation on configuring this importer can be found
+    <a href="tutorial.html">here</a>
 
-<h1>
-How to make an Exhibit from a tsv or csv file
-</h1>
+    <div data-ex-role="lens" style="display: none" class="lens-wrapper">
+    <div style="text-align:center">
+      <div><a data-ex-content=".label" 
+      data-ex-href-content=".url"><img data-ex-src-content=".image" alt="logo"></a></div>
+      <div class="details">
+	<div style="font-weight: bold" 
+        data-ex-content=".label"></div>
+	<div style="font-weight: italic; color: #888">
+	  <span data-ex-content=".City"></span>, 
+          <span data-ex-content=".Region"></span>
+	</div>
+      </div>
+      </div>
+    </div>
+    
+    
+    <table style="width:100%">
+      <tr style="vertical-align:top">
+        <td style="width:20%">
+	  <div data-ex-role="facet"  data-ex-facet-class="TextSearch"></div>
+	  <br>
+	  <div data-ex-role="facet" data-ex-expression=".Winners" 
+          data-ex-facet-class="NumericRange" data-ex-horizontal="true" 
+          data-ex-precision="1" data-ex-histogram="false" 
+          data-ex-facet-label="# of Championships Won"></div>
 
-This tutorial walks you through the steps of setting up an Exhibit
-from a tsv or csv file. Here are the <a href="italian-soccer.html">example exhibit</a> and the data
-files in both formats: <a href="italianSoccer.csv">csv</a> and <a href="italianSoccer.tsv">tsv</a>.
+	  <br>
+	  <div data-ex-role="facet" data-ex-expression=".label" 
+          data-ex-facet-label="Teams" data-ex-scroll="false"></div>
+        </td>
+        <td data-ex-role="viewPanel" style="text-align:center">
+	  <div data-ex-role="view"
+	       data-ex-view-class="Map"
+	       data-ex-shape-width="50"
+	       data-ex-shape-height="50"
+	       data-ex-pin-height="10"
+	       data-ex-icon-fit="larger"
+	       data-ex-color="#FFFFFF"
+               data-ex-map-height="450"
+	       data-ex-latlng=".latlng"
+	       data-ex-center="43,12.5"
+	       data-ex-zoom="6"
+	       data-ex-icon=".image"
+	       data-ex-bubblewidth="150">
+       	  </div>
+	  <div data-ex-role="view" data-ex-view-class="Thumbnail" data-ex-show-all="true">
+	    <div data-ex-role="lens" class="thumbnail-lens">
+	      <table class="team" style="text-align:center; border-spacing:1">
+		<tr><td style="height: 225px; width: 200px"><a data-ex-href-content=".url"><img data-ex-src-content=".image" alt="logo"></a></td></tr>
+		<tr><td style="font-weight: bold" data-ex-content=".label"></td></tr>
+		<tr><td style="font-style: italic; color: #888" data-ex-content=".City"></td></tr>
+		<tr><td style="font-style: italic; color: #888" data-ex-content=".Region"></td></tr>
+	      </table>
+	    </div>
+	  </div>
+	  <div data-ex-role="view" 
+	       data-ex-view-class="Tabular" 
+	       data-ex-columns=".label, .City, .Region, .Winners, .ChampionshipSeasons"
+	       data-ex-column-labels="Team, City, Region, Number of Championships Won, Championship Seasons"
+	       data-ex-column-formats="text, text, text, number, list"
+	       style="text-align:center">
+	  </div>  
+        </td>
+	<td style="width:20%">
+	  <div data-ex-role="facet" data-ex-expression=".City" 
+          data-ex-scroll="false"></div>
+	  <br>
+	  <div data-ex-role="facet" data-ex-expression=".Region" 
+          data-ex-scroll="false"></div>
+	</td>
+      </tr>
+    </table>
 
- 
-<h2>
-Setting up the Exhibit
-</h2>
-To make your TSV/CSV Exhibit, you should first follow the Getting
-Started Tutorial to set up the initial html page. The link to the data
-however should be similar to the following, depending on the file's
-format:
-
-<div>
-<code>
-&langle;link href="italianSoccer.csv" type="text/csv" rel="exhibit/data"/&rangle;
-</code>
-</div>
-
-or
-<div>
-<code>
-&langle;link href="italianSoccer.txt" type="text/tsv" rel="exhibit/data"/&rangle;
-</code>
- </div>
-<h2>
-Formatting the Data
-</h2>
-
-If you are creating the tsv/csv file yourself , the first line should
-provide the names of the properties along with their value types as
-shown below. In the case that the value type is .text., then you do
-not have to specify it as it is the default type.
-
-<div>
-<code>
-label,url:url,image:url,City,Region,Winners,Runner-up,Championship
-Seasons
-</code>
-</div>
-
-or
-
-<div>
-<code>
-label   url:url image:url      City    Region  Winners Runner-up
-Championship Seasons
-</code>
-</div>
-
- 
-<h2>
-Adding the Property Names and Value Types
-</h2>
-If instead the data is taken from another website and you would like
-to add or replace the existing property names to match the Exhibit
-format, you must change the link so that it follows the structure
-below:
-
- <div>
-<code>
-&langle;link href="italianSoccer.txt" type="text/tsv" rel="exhibit/data"
-<br>
-data-ex-properties="label,url:url,image:url,City,Region,latlng,Winners:number,Runner-up:number,ChampionshipSeasons"
-data-ex-has-column-titles="true"/&rangle;
-</code>
-</div>
- 
-
-The <code>data-ex-properties</code> attribute allows you to specify a comma-separated
-list of names and types for the properties. The
-<code>data-ex-has-column-titles</code> attribute, which is set to true by default, lets
-you specify whether the data file already contains a header row. If a
-list of properties is specified in <code>data-ex-properties</code> and
-<code>data-ex-has-column-titles</code> is set to true, the property list will override the
-existing header row. Note, you will get an error if you set
-<code>data-ex-has-column-titles</code> to false and do not provide a list of property
-names.
-
- 
-</body>
+  </body>
 </html>
+
