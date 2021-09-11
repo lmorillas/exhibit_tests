@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+
+    <!--
+    Nota Bene:
+        functions.php is calling exhibit-api.js
+        echo get_template_directory_uri() breaks when updating theme. Use
+        get_stylesheet_directory_uri() instead. It gets the path from the child
+        theme.
+ -->
+
+    <!-- <link rel="exhibit/data"
+        type="application/jsonp"
+        href="https://spreadsheets.google.com/feeds/list/1QFApf8MGr-ZP-OqvKtPFUEASuaq9_vuvLOfanC4NGHQ/od6/public/basic?alt=json-in-script"
+        ex:converter="googleSpreadsheets" /> -->
+
+    <!-- the jsonp method above no longer works. The csv url below retrieves the data as csv, but exhibit fails to correctly parse it.
+Columns in the spreadsheet. Not all of these are deployed on the page:
+label,itemID,Link1,Link2,Link3,Short_Description:single,Long_Description:single,Developer,Category,Activity_Type,imageURL,Tags,Grade_Band,Activity_Duration,NGSS_Performance_Expectations,NGSS_Disciplinary_Core_Ideas,NGSS_Crosscutting_Concepts,OA_Principle,Favorite?,Date,Grade,# lessons,# days,Is curriculum evaluated?,Evaluation Criteria,Objectives: Clearly Written,Objectives: Standards Aligned,Structure: Comprehensive,All Teacher Materials included,Student-Facing Materials Included,Materials_Notes: single,Content: Instructor Background,Content: Key Points,CO2 changes pH Demo,Shells in Acid,Alkalinity Buffer,pH of Solutions lab,Addresses solutions to OA?,Content_Notes: single,"Link to NRDC Acid Test? (0=N, 1=Y)",Review_Comments: single
+-->
+    <link
+        href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQYa_HKoDuTImGTnDVU3C79Y7Fm02h8as7mXUOzJUbAyks2VzCSjr7n5TCfS9lxNKrDx_mPVl_l7Kd6/pub?gid=0&single=true&output=csv"
+        type="text/csv" rel="exhibit/data"
+        data-ex-properties="label,itemID,Link1,Link2,Link3,Short_Description,Long_Description,Developer,Category,Activity_Type,imageURL,Tags,Grade_Band,OA_Principle"
+        data-ex-has-column-titles="true" />
+
+    <script src="//api.simile-widgets.org/exhibit/current/exhibit-api.js"></script>
+
+    <style>
+        body {
+            font-size: 65% !important;
+        }
+
+        .about-exhibit-link {
+            width: 100%;
+        }
+
+        .about-exhibit {
+            display: none;
+            font-size: initial;
+        }
+
+        #page .page-header {
+            display: none
+        }
+
+        /* OVERRIDING: scripted/src/styles/exhibit.css */
+
+        a.resource-link,
+        a.resource-link:link,
+        a.resource-link:active,
+        a.resource-link:visited,
+        a.exhibit-item,
+        a.exhibit-item:link,
+        a.exhibit-item:active,
+        a.exhibit-item:visited {
+            color: #450;
+            border-bottom: 1px dotted #6ab165;
+        }
+
+        a.resource-link:hover,
+        a.exhibit-item:hover {
+            border-bottom: 1px solid;
+        }
+
+        exhibit-collectionView-header {
+            text-align: left
+        }
+
+        #main-content {
+            color: #383838;
+            font-family: 'Lato', 'Roboto', Arial, Tahoma, sans-serif;
+            font-size: 130%;
+            line-height: 1.2em;
+            padding-bottom: 2em;
+            text-align: left;
+        }
+
+        .legend {
+            text-align: center;
+            background-color: #f0f8ff;
+            padding: 6px;
+            margin-bottom: 6px;
+            border: 2px solid #aad;
+            border-radius: 6px;
+        }
+
+        #top-panels {
+            background-color: #f0f8ff;
+            margin-bottom: 16px;
+            border: 2px solid #aad;
+            border-radius: 6px;
+        }
+
+
+        /* Facet Block */
+        ul.search-facet {
+            margin: 6px 6px 6px 16px;
+            ;
+            padding: 0;
+        }
+
+        ul.search-facet li {
+            list-style: none;
+            display: inline-block;
+            text-align: left;
+        }
+
+        div.exhibit-text-facet input {
+            border: 2px solid #aac;
+            width: 200px;
+            padding: 1px;
+        }
+
+        ul.facet-blocks {
+            text-align: center;
+            margin: 0;
+            padding: 0
+        }
+
+        ul.facet-blocks li {
+            list-style: none;
+            display: inline-block;
+            text-align: left;
+            border: 1px solid rgba(68, 85, 0, 0.36);
+            border-radius: 6px;
+        }
+
+        .exhibit-facet-body {
+            background-color: #fff;
+        }
+
+
+        div.exhibit-facet-value-count {
+            color: #449
+        }
+
+        a.exhibit-facet-value-link {
+            color: #559;
+        }
+
+        div.exhibit-bubble {
+            background-color: #f0f8ff !important
+        }
+
+        .exhibit-controlPanel {
+            background-color: #f0f8ff;
+            border: 2px solid #aad;
+            border-radius: 4px;
+            padding: 4px;
+        }
+
+        div.exhibit-bookmarkWidget-popup:before {
+            content: " Click on the 'bookmark' icon to get a URL you can use to go directly to the current state of your filtered browsing: ";
+        }
+
+        /* Thumbnail View */
+
+        div.exhibit-thumbnailView-itemContainer {
+            height: 300px;
+            overflow: hidden;
+            margin: 0 .6em;
+        }
+
+        .exhibit-thumbnailView-body {
+            width: 90%;
+            margin-left: 90px;
+            margin-right: auto;
+        }
+
+        table.itemThumbnail {
+            min-height: 280px;
+            width: 180px;
+            border: 1px solid rgba(68, 85, 0, 0.36);
+            margin: 2px;
+            border-radius: 6px;
+            border-collapse: initial;
+        }
+
+
+        /* Tabular View */
+        table.exhibit-tabularView-body td {
+            padding: 9px;
+        }
+
+        table.exhibit-tabularView-body td.itemName {
+            width: 25%
+        }
+
+        table.exhibit-tabularView-body td.resource-links {
+            width: 15%
+        }
+
+        table.exhibit-tabularView-body td.short-description {
+            width: 60%
+        }
+
+        table.exhibit-tabularView-body thead tr {
+            text-align: center;
+        }
+
+        table.exhibit-tabularView-body tr th:nth-child(3) {
+            width: 10em;
+        }
+
+        /* Tile View */
+        .exhibit-tileView-body {
+            text-align: left;
+            margin-left: auto;
+            margin-right: auto;
+            width: 66%;
+        }
+
+        .exhibit-tileView-body li::after {
+            content: url("https://oacurriculumcollection.org/wp-content/themes/education-zone-child/images/teal-quadrefoil.png");
+            margin: 60px;
+            line-height: 80px;
+        }
+
+        .exhibit-tileView-body .data-table td {
+            font-size: 11pt;
+            padding: .2em;
+        }
+
+        .exhibit-tileView-body .data-table td.mainLens-property-name {
+            width: 10em;
+        }
+
+
+
+        /* View Panel */
+
+
+        div.exhibit-viewPanel {
+            text-align: center;
+            background-color: #f0f8ff;
+            padding: 6px;
+            margin-bottom: 6px;
+            border: 2px solid #aad;
+            border-radius: 6px;
+            line-height: 2em;
+        }
+
+        div.exhibit-viewPanel::before {
+            content: "Multiple views of the collection data:"
+        }
+
+        div.exhibit-toolboxWidget-popup.screen {
+            position: inherit !important;
+            float: right;
+            text-align: center;
+            background-color: #f0f8ff;
+            padding: 6px;
+            margin-bottom: 6px;
+            border: 2px solid #aad;
+            border-radius: 6px;
+        }
+
+        div.exhibit-toolboxWidget-popup.screen::before {
+            content: "copy your filtered data in several data formats:"
+        }
+
+        div.exhibit-menu-popup {
+            font-size: 12pt;
+        }
+
+        /* Main Lens Display */
+        table.data-table {
+            font-size: initial;
+            border-spacing: 6px;
+            border-collapse: initial;
+        }
+
+        table.data-table td {
+            padding: 3px 6px 9px 12px;
+            line-height: 1.2em;
+        }
+
+        td.resource-links {
+            width: 25% text-align: center;
+        }
+
+        td.mainLens-property-name {
+            border-top: 1px solid #333;
+            border-right: 6px solid #333;
+        }
+
+
+        #TB_window {
+            padding-bottom: 48px;
+        }
+
+        @media screen and (max-width: 460px) {
+
+            table.exhibit-tabularView-body tr td:nth-child(1),
+            table.exhibit-tabularView-body tr th:nth-child(1) {
+                display: none
+            }
+
+            table.exhibit-tabularView-body tr th:nth-child(3),
+            table.exhibit-tabularView-body tr td:nth-child(3) {
+                width: 10%;
+                text-align: right
+            }
+        }
+    </style>
+
+
+    <title>Curriculum Collection &#8211; Ocean Acidification Curriculum Collection</title>
+
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+</head>
+
+
+<body class="exhibit-body">
+
+    <div id="main-content">
+        <div id="top-panels">
+            <ul class="search-facet">
+                <li data-ex-role="facet" data-ex-facet-class="TextSearch"></li>
+                <li>&nbsp;&nbsp;Text search: not case-sensitive.</li>
+            </ul>
+
+            <p class="legend">Select from the criteria listed below to filter the items shown.</p>
+            <ul class="facet-blocks">
+                <li>
+                    <div data-ex-role="facet" data-ex-expression=".Category" data-ex-facet-label="Category">
+                    </div>
+                </li>
+                <li>
+                    <div data-ex-role="facet" data-ex-expression=".Activity_Type" data-ex-facet-label="Activity Type">
+                    </div>
+                </li>
+                
+                <li>
+                    <div data-ex-role="facet" data-ex-expression=".OA_Principle" data-ex-facet-label="OA Principle">
+                    </div>
+                </li>
+                <li>
+                    <div data-ex-role="facet" data-ex-expression=".Tags" data-ex-facet-label="Tags">
+                    </div>
+                </li>
+                <li>
+                    <div data-ex-role="facet" data-ex-expression=".Grade_Band" data-ex-facet-label="Grade Band">
+                    </div>
+                </li>
+            
+            </ul>
+        </div>
+
+      
+        <div data-ex-role="viewPanel" id="vPanel">
+
+            <!-- TABULAR VIEW -->
+            <div data-ex-role="view"
+                    data-ex-view-class="Tabular"
+                    data-ex-label="Summary"
+                    data-ex-columns=".label, .Link1, .Short_Description"
+                    data-ex-column-labels="Name,Links,Description"
+                    data-ex-sort-column="0"
+                    data-ex-sort-ascending="true"
+                    >
+                    <table class="itemTable" role="lens" style="display: none" template="mainLens">
+                        <!-- ex:onshow="doMe(this);" WILL NOT fire in this context, why? -->
+                        <!-- Inclusion of the template="mainLens" attribute DOES NOT override the local lens, but does govern the bubble format when clicking on .itemName. -->
+                        <tbody>
+                            <tr>
+                                <td class="itemName" data-ex-content="value"></td>
+
+                                <td class="resource-links">
+                                    <span data-ex-if-exists=".Link1">
+                                        <a class="resource-link" data-ex-href-content=".Link1"
+                                            target="_blank">(resource link)</a>
+                                    </span>
+                                    <span data-ex-if-exists=".Link2">
+                                        <br><a class="resource-link" data-ex-href-content=".Link2"
+                                            target="_blank">(resource link)</a>
+                                    </span>
+                                    <span data-ex-if-exists=".Link3">
+                                        <br><a class="resource-link" data-ex-href-content=".Link3"
+                                            target="_blank">(resource link)</a>
+                                    </span>
+
+                                </td>
+                                <td class="short-description">
+                                    <span data-ex-content=".Short_Description"></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                
+                
+                
+                </div>
+
+
+
+            <!-- TILE VIEW 
+            <div data-ex-role="view" data-ex-label="Detail" data-ex-view-class="Tile" data-ex-showAll="false"
+                data-ex-possible-orders=".label" data-ex-grouped="false">
+            </div>
+        -->
+
+        </div>
+    </div>
+
+
+
+    <!-- works from console, not from here
+<script>
+    jQuery(".exhibit-bubble").on("click", function(){
+        var bubblesOpen = jQuery(".exhibit-bubble").length;
+        if (bubblesOpen > 1){
+            jQuery(".exhibit-bubble").each(function(idx){
+                jQuery(this).css("z-index", 0);
+            });
+            jQuery(this).css("z-index", 1);
+        }
+        console.log(this);
+    });
+
+</script>
+ -->
+</body>
+
+</html>
