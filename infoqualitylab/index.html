@@ -1,0 +1,263 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset='utf-8' />
+  <title>Empirical Retraction Lit: RISRS Retraction Review</title>
+  
+  <link
+    href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic&amp;subset=latin,vietnamese'
+    rel='stylesheet' type='text/css' />
+  
+    
+  <link rel="exhibit-data" href="metadata/publications.json" type="application/json">
+
+  <!--<link rel="exhibit/data" href="metadata/venues.json" />
+    <link rel="exhibit/data" href="metadata/authors.json" />
+    <link rel="exhibit/data" href="metadata/schema.json" />-->
+
+  <script type="text/javascript" src="https://api.simile-widgets.org/exhibit/current/exhibit-api.js"></script>
+  <!--script type="text/javascript" src="https://static.simile.mit.edu/exhibit/api-2.1.0/exhibit-api.js"></script-->
+
+  <script src="//api.simile-widgets.org/exhibit/HEAD/lib/jquery.min.js" type="text/javascript"></script>
+  <script src="//api.simile-widgets.org/exhibit/HEAD/exhibit-api.js" type="text/javascript"></script>
+
+
+  <style>
+    #publication-container {
+      margin: 0px -32px;
+      margin-top: 64px;
+      font-size: 11pt;
+    }
+
+    #publication-container>table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 32px;
+    }
+
+    #publication-container>table>tbody>tr>td {
+      vertical-align: top;
+    }
+
+    #facet-panel {}
+
+    .exhibit-flowingFacet {
+      margin-top: 32px;
+    }
+
+    ol.exhibit-tileView-body {
+      counter-reset: li;
+      margin-left: 0;
+      padding-left: 0;
+    }
+
+    ol.exhibit-tileView-body>li {
+      position: relative;
+      list-style: none;
+    }
+
+    ol.exhibit-tileView-body>li:before {
+      content: counter(li);
+      counter-increment: li;
+      position: absolute;
+      left: -2em;
+      display: block;
+      width: 1.5em;
+      text-align: right;
+      color: #aaa;
+    }
+
+    div.publication-lens {
+      margin-top: 1em;
+      margin-bottom: 1.5em;
+    }
+
+    .publication-lens div.authors {
+      font-style: italic;
+    }
+
+    .publication-lens .publication-title {
+      font-weight: bold;
+    }
+
+    .publication-lens div.downloads {}
+
+    .publication-lens div.downloads>a {
+      margin-left: 0.5em;
+    }
+
+    .publication-lens div.abstract {
+      color: #666;
+    }
+
+    .publication-lens div.excerpt {
+      color: #666;
+    }
+
+    .publication-lens .status {
+      color: #c00;
+    }
+
+    a.exhibit-item,
+    a.exhibit-item:link,
+    a.exhibit-item:active,
+    a.exhibit-item:visited,
+    a.exhibit-item:hover,
+    a.exhibit-action,
+    a.exhibit-action:link,
+    a.exhibit-action:active,
+    a.exhibit-action:visited,
+    a.exhibit-action:hover {
+      border-bottom: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="page-frame">
+    <div id="nav-box">
+      <!--<a class="item" href="/">home</a>
+    <a class="item" href="publications">publications</a>
+    <a class="item" href="resume">r&eacute;sum&eacute;</a>
+    <a class="item" href="project-list">projects</a>-->
+    </div>
+    <!--<script>
+    $(function() {
+      var url = document.location.href;
+      url = url.replace(/\.php$/, '');
+      url = url.replace(/\/index$/, '/');
+      $('#nav-box > a.item').each(function(i, a) {
+        if (a.href == url) {
+          $(a).remove();
+        }
+      });
+    });
+  </script>-->
+
+    <div id="page-title">Bulk downloads from the <a
+        href="https://github.com/infoqualitylab/Empirical-Retraction-Lit">Empirical Retraction Lit GitHub
+        repository</a>.<a href="https://zenodo.org/badge/latestdoi/303028085"><img
+          src="https://zenodo.org/badge/303028085.svg" alt="DOI"></a> Or, to export from this page, click orange
+      scissors icon next to search bar to see export options. To access article links, hold control or command key and
+      click link. </div>
+
+    <div data-ex-role="collection" data-ex-item-types="Publication"></div>
+
+    <div id="publication-container">
+      <table>
+        <tr>
+          <td style="width: 45em;">
+            <div data-ex-role="lens" data-ex-item-types="Publication" class="publication-lens" style="display: none">
+              <div><span class="publication-title" data-ex-content=".label"></span></div>
+              <div>
+                <span class="authors" data-ex-content=".author"></span>.
+                <i data-ex-if-exists=".venue"><span data-ex-content=".venue"></span>, </i>
+                <i data-ex-if-exists=".event"><span data-ex-content=".event"></span>, </i>
+                <span data-ex-content=".Volume"></span><span data-ex-if-exists=".status" class="status"> (<span
+                    data-ex-content=".status"></span>)</span>
+                <span data-ex-content=".Issue"></span><span data-ex-if-exists=".status" class="status"> (<span
+                    data-ex-content=".status"></span>)</span>
+                <span data-ex-content=".Pages"></span><span data-ex-if-exists=".status" class="status"> (<span
+                    data-ex-content=".status"></span>)</span>
+                <span data-ex-content=".year"></span><span data-ex-if-exists=".status" class="status"> (<span
+                    data-ex-content=".status"></span>)</span>.
+                <span data-ex-content=".DOI"></span><span data-ex-if-exists=".status" class="status"></span>
+                <a data-ex-if-exists=".Link"data- ex-href-content=".Link">Link to publication</a>
+                <!--<a href="http://doi.org/10.1080/08989621.2020.1754804">http://doi.org/10.1080/08989621.2020.1754804</a>-->
+              </div>
+              <!--<div class="downloads">&mdash;
+                          <a data-ex-if-exists=".projectSite"data- ex-href-content=".projectSite" target="_blank">project site</a>
+                          <a data-ex-if-exists=".url"data- ex-href-content=".url">source article</a>
+                          <a data-ex-if-exists=".talkURL"data- ex-href-content=".talkURL">talk video</a>
+                          <a data-ex-if-exists=".screencastURL"data- ex-href-content=".screencastURL">screencast</a>
+                          <a data-ex-if-exists=".pdfURL"data- ex-href-content=".pdfURL">pdf</a>
+                          <a data-ex-if-exists=".pptURL"data- ex-href-content=".pptURL">powerpoint</a>
+                          <a data-ex-if-exists=".psURL"data- ex-href-content=".psURL">ps</a>
+                      </div>-->
+              <div data-ex-if-exists=".abstract" class="abstract" data-ex-content=".abstract"></div>
+              <div data-ex-if-exists=".excerpt" class="excerpt" data-ex-content=".excerpt"></div>
+            </div>
+            <!--<div data-ex-role="lens" 
+                      data-ex-item-types="Person"
+                      style="display: none">
+                      <span style="color: #008" data-ex-content=".label"></span>, <i data-ex-content=".position"></i>
+                      <a data-ex-if-exists=".website"data- ex-href-content=".website" target="_blank">[web site]</a>
+                      <ol data-ex-content="!author">
+                          <li data-ex-content="value"></li>
+                      </ol>
+                  </div>
+                  <div data-ex-role="lens" 
+                      data-ex-item-types="Venue"
+                      style="display: none">
+                      <span style="color: #008" data-ex-content=".label"></span>
+                      <ol data-ex-content="!venue">
+                          <li data-ex-content="value"></li>
+                      </ol>
+                  </div>-->
+
+            <div data-ex-role="view" data-ex-show-all="false" data-ex-grouped="false" data-ex-orders=".year" data-ex-directions="descending"
+              data-ex-possibleOrders=".author, .year, .pub-type, .work-done-at, .AttributeId"></div>
+          </td>
+          <td style="width: 18em;" id="facet-panel">
+            <div data-ex-role="facet" data-ex-facet-class="TextSearch" data-ex-facet-label="search"></div>
+            <div data-ex-role="facet" data-ex-expression=".Language" data-ex-sort-mode="alpha" data-ex-scroll="false"
+              data-ex-facet-label="filter by language"></div>
+            <div data-ex-role="facet" data-ex-expression=".pub-type" data-ex-sort-mode="count" data-ex-scroll="false"
+              data-ex-facet-label="Publication type"></div>
+            <div data-ex-role="facet" data-ex-expression=".Authorship_of_retracted_papers" data-ex-sort-mode="count" data-ex-scroll="false"
+              data-ex-show-missing="false" data-ex-facet-label="Authorship of retracted papers"></div>
+            <div data-ex-role="facet" data-ex-expression=".Citation_of_retracted_papers" data-ex-sort-mode="count" data-ex-scroll="false"
+              data-ex-show-missing="false" data-ex-facet-label="Citation of retracted papers"></div>
+            <div data-ex-role="facet" data-ex-expression=".Citation_context" data-ex-sort-mode="count" data-ex-scroll="false"
+              data-ex-show-missing="false" data-ex-facet-label="Citation context"></div>
+            <div data-ex-role="facet" data-ex-expression=".Perceptions_and_discussion_of_retracted_papers" data-ex-sort-mode="count"
+              data-ex-scroll="false" data-ex-show-missing="false" data-ex-facet-label="Perceptions and discussion of retracted papers">
+            </div>
+            <div data-ex-role="facet" data-ex-expression=".Impacts_of_retraction" data-ex-sort-mode="count" data-ex-scroll="false"
+              data-ex-show-missing="false" data-ex-facet-label="Impacts of retraction"></div>
+            <div data-ex-role="facet" data-ex-expression=".Characteristics_of_retraction_notices" data-ex-sort-mode="count"
+              data-ex-scroll="false" data-ex-show-missing="false" data-ex-facet-label="Characteristics of retraction notices"></div>
+            <div data-ex-role="facet" data-ex-expression=".Characteristics_of_retracted_papers" data-ex-sort-mode="count"
+              data-ex-scroll="false" data-ex-show-missing="false" data-ex-facet-label="Characteristics of retracted papers"></div>
+            <div data-ex-role="facet" data-ex-expression=".Database_search_limitations" data-ex-sort-mode="count" data-ex-scroll="false"
+              data-ex-show-missing="false" data-ex-facet-label="Database search limitations used by studies"></div>
+            <div data-ex-role="facet" data-ex-expression=".Interviews_and_surveys" data-ex-sort-mode="count" data-ex-scroll="false"
+              data-ex-show-missing="false" data-ex-facet-label="Interviews and surveys"></div>
+            <div data-ex-role="facet" data-ex-expression=".Processes_and_policies" data-ex-sort-mode="count" data-ex-scroll="false"
+              data-ex-show-missing="false" data-ex-facet-label="Processes and policies related to retraction"></div>
+            <div data-ex-role="facet" data-ex-expression=".Studies_related_to_discipline_or_geography" data-ex-sort-mode="count"
+              data-ex-scroll="false" data-ex-show-missing="false" data-ex-facet-label="Studies related to discipline or geography"></div>
+            <div data-ex-role="facet" data-ex-expression=".Visibility_of_retraction_status" data-ex-sort-mode="count" data-ex-scroll="false"
+              data-ex-show-missing="false" data-ex-facet-label="Visibility of retraction status"></div>
+            <div data-ex-role="facet"
+              data-ex-expression=".Studies_proposing_methods_to_detect_and_prevent_problems_in_the_literature"
+              data-ex-sort-mode="count" data-ex-scroll="false" data-ex-show-missing="false"
+              data-ex-facet-label="Studies proposing methods to detect and prevent problems in the literature"></div>
+            <div data-ex-role="facet"
+              data-ex-expression=".Studies_proposing_methods_for_studying_and_responding_to_retracted_papers"
+              data-ex-sort-mode="count" data-ex-scroll="false" data-ex-show-missing="false"
+              data-ex-facet-label="Studies proposing methods for studying and responding to retracted papers"></div>
+            <div data-ex-role="facet"
+              data-ex-expression=".Studies_performing_analyses_and_actions_to_identify_and_report_problems_in_the_literature"
+              data-ex-sort-mode="count" data-ex-scroll="false" data-ex-show-missing="false"
+              data-ex-facet-label="Studies performing analyses and actions to identify and report problems in the literature">
+            </div>
+            <div data-ex-role="facet" data-ex-expression=".Network_Visualization" data-ex-sort-mode="count" data-ex-scroll="false"
+              data-ex-show-missing="false" data-ex-facet-label="Network visualization"></div>
+            <div data-ex-role="facet" data-ex-expression=".Other" data-ex-sort-mode="count" data-ex-scroll="false" data-ex-show-missing="false"
+              data-ex-facet-label="Other"></div>
+            <div data-ex-role="facet" data-ex-expression=".venue" data-ex-sort-mode="count" data-ex-scroll="false" data-ex-show-missing="false"
+              data-ex-facet-label="filter by venue"></div>
+            <div data-ex-role="facet" data-ex-expression=".author" data-ex-sort-mode="count" data-ex-scroll="false"
+              data-ex-facet-label="filter by author"></div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+
+ </body>
+
+</html>
