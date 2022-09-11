@@ -1,0 +1,70 @@
+{
+    "items": [{
+        "type": "tipo",
+        "tipo": ["Primaria", "Secundaria"],
+        "label": "CPRI-INPRISE"
+    }, {
+        "type": "tipo",
+        "tipo": "Secundaria",
+        "label": "IES"
+    }, {
+        "type": "tipo",
+        "tipo": "Ed. Especial",
+        "label": "CEE"
+    }, {
+        "type": "tipo",
+        "tipo": "Secundaria",
+        "label": "CPRI-ES"
+    }, {
+        "type": "tipo",
+        "tipo": "Infantil y Primaria",
+        "label": "CEIP"
+    }, {
+        "type": "tipo",
+        "tipo": "Secundaria",
+        "label": "SEC-IES"
+    }, {
+        "type": "tipo",
+        "tipo": "Ed. Especial",
+        "label": "CPRI-EE"
+    }, {
+        "type": "tipo",
+        "tipo": "Infantil",
+        "label": "EEI"
+    }, {
+        "type": "tipo",
+        "tipo": "Formaci\u00f3n Profesional",
+        "label": "CPRI-FPE"
+    }, {
+        "type": "tipo",
+        "tipo": "C. Rural Agrupado",
+        "label": "CRA"
+    },
+    {
+        "type": "tipo",
+        "tipo": "Formación Profesional",
+        "label": "CINTFP"
+    },
+    {
+        "type": "tipo",
+        "tipo": "Escuela de Arte",
+        "label": "EARTE"
+    },
+    {
+        "type": "tipo",
+        "tipo": "Conservatorio de música",
+        "label": "CONSPROFMUS"
+    },
+    {
+        "type": "tipo",
+        "tipo": "Conservatorio de música",
+        "label": "CONSSUPMUS"
+    },
+    {
+        "type": "tipo",
+        "tipo": "Escuela de Idiomas",
+        "label": "EOI"
+    }
+    ]
+}
+

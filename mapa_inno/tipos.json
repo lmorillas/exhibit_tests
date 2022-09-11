@@ -1,0 +1,83 @@
+{
+    "items": [{
+        "type": "tipo",
+        "tipo": ["Primaria", "Secundaria"],
+        "label": "CPRI-INPRISE"
+    }, {
+        "type": "tipo",
+        "tipo": "Formaci\u00f3n Profesional",
+        "label": "CINTFP"
+    }, {
+        "type": "tipo",
+        "tipo": "Secundaria",
+        "label": "IES"
+    }, {
+        "type": "tipo",
+        "tipo": "Ed. Especial",
+        "label": "CEE"
+    }, {
+        "type": "tipo",
+        "tipo": ["Infantil y Primaria"],
+        "label": "CPRI-INFPRI"
+    }, {
+        "type": "tipo",
+        "tipo": "Arte",
+        "label": "EARTE"
+    }, {
+        "type": "tipo",
+        "tipo": "Formación Profesional",
+        "label": "CPRI-INTFP"
+    }, {
+        "type": "tipo",
+        "tipo": ["Primaria", "Secundaria"],
+        "label": "CPRI-PRISEC"
+    }, {
+        "type": "tipo",
+        "tipo": "Primaria",
+        "label": "CPRI-PRI"
+    }, {
+        "type": "tipo",
+        "tipo": "Secundaria",
+        "label": "CPRI-ES"
+    }, {
+        "type": "tipo",
+        "tipo": "Innovación",
+        "label": "CRIE"
+    }, {
+        "type": "tipo",
+        "tipo": ["Infantil y Primaria"],
+        "label": "CEIP"
+    }, {
+        "type": "tipo",
+        "tipo": "Adultos",
+        "label": "CPEPA"
+    }, {
+        "type": "tipo",
+        "tipo": "Secundaria",
+        "label": "SEC-IES"
+    }, {
+        "type": "tipo",
+        "tipo": "Ed. Especial",
+        "label": "CPRI-EE"
+    }, {
+        "type": "tipo",
+        "tipo": "Formación Profesional",
+        "label": "IFPE"
+    }, {
+        "type": "tipo",
+        "tipo": "Infantil",
+        "label": "CPRI-INF"
+    }, {
+        "type": "tipo",
+        "tipo": "Infantil",
+        "label": "EEI"
+    }, {
+        "type": "tipo",
+        "tipo": "Formación Profesional",
+        "label": "CPRI-FPE"
+    }, {
+        "type": "tipo",
+        "tipo": "Rural",
+        "label": "CRA"
+    }]
+}
