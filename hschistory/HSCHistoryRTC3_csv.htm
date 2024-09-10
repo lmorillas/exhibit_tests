@@ -7,17 +7,18 @@
 <!-- <link href="HistoryRTC.js" type="application/json" rel="exhibit-data" /> -->
 
 <link href="HSCHistoryRTC.csv" type="text/csv" rel="exhibit-data" 
-    data-ex-has-column-titles="true"/> 
+    data-ex-has-column-titles="true"
+/> 
 
 <script src="https://api.simile-widgets.org/exhibit/STABLE/exhibit-api.js" ></script>
 
 <script type="text/javascript">
     var rowStyler = function (item, database, tr) {
-        var TimesPerf = database.getObject(item, "Performed");
+        var TimesPerf = database.getObject(item, "TimesPerf");
         var BackColor = "white";
         var ForeColor = "black";
         switch (TimesPerf) {
-            case "False": BackColor = "#CCCCCC"; ForeColor = "white"; break;
+            case "0": BackColor = "#CCCCCC"; ForeColor = "white"; break;
 
         }
         tr.style.backgroundColor = BackColor;
@@ -34,10 +35,6 @@
     <pre>Test copy of <a href="http://rtcutler.com/HSCArchive/HSCHistoryRTC.htm">http://rtcutler.com/HSCArchive/HSCHistoryRTC.htm</a> 
     
     DATA now at <a href="HSCHistoryRTC.csv">HSCHistoryRTC.csv</a> 
-
-    Exhibit 3 syntax
-
-    rowStyler typo changed
     </pre>
 <h2>
 Works Performed by Roger Cutler since '89 in the HSC, '14 in HMC, '16 in Sons of 
