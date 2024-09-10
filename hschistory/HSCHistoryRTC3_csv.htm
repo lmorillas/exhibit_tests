@@ -1,0 +1,158 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+
+
+<html><head><title>HSC Cutler History</title>
+
+<!-- <link href="HistoryRTC.js" type="application/json" rel="exhibit-data" /> -->
+
+<link href="HSCHistoryRTC.csv" type="text/csv" rel="exhibit-data" 
+    data-ex-has-column-titles="true"/> 
+
+<script src="https://api.simile-widgets.org/exhibit/STABLE/exhibit-api.js" ></script>
+
+<script type="text/javascript">
+    var rowStyler = function (item, database, tr) {
+        var TimesPerf = database.getObject(item, "Performed");
+        var BackColor = "white";
+        var ForeColor = "black";
+        switch (TimesPerf) {
+            case "False": BackColor = "#CCCCCC"; ForeColor = "white"; break;
+
+        }
+        tr.style.backgroundColor = BackColor;
+        tr.style.color = ForeColor;
+        
+    };
+    </script>
+
+<!-- <link href="HSCHistoryRTC.js"  rel="exhibit/data" /> -->
+
+</head>
+<body>
+
+    <pre>Test copy of <a href="http://rtcutler.com/HSCArchive/HSCHistoryRTC.htm">http://rtcutler.com/HSCArchive/HSCHistoryRTC.htm</a> 
+    
+    DATA now at <a href="HSCHistoryRTC.csv">HSCHistoryRTC.csv</a> 
+
+    Exhibit 3 syntax
+
+    rowStyler typo changed
+    </pre>
+<h2>
+Works Performed by Roger Cutler since '89 in the HSC, '14 in HMC, '16 in Sons of 
+Orpheus, '17 in Cecilia Chamber Choir, '19 in Resound!, '22 in Piping Rock, and '23 Rice Chorale</h2>
+
+<h3><a href="https://houstonsymphony.org/about-us/chorus/">Houston Symphony Chorus</a><br>
+<a href="http://www.houstonmasterworks.org/">Houston Masterworks Chorus</a><br>
+<a href="https://www.youtube.com/user/HoustonCountertenor">Sons of Orpheus</a><br>
+<a href="http://www.houstoncecilia.org/">Houston Cecilia Chamber Choir</a><br>
+<a href="https://www.facebook.com/pipingrocksingers/">Piping Rock Singers</a>
+<br><a href="https://music.rice.edu/departments-and-ensembles/rice-chorale">Rice 
+Chorale</a></h3>
+<hr>
+<p>
+This is a personal view of my choral performances in the Houston Symphony 
+Chorus, Houston Masterworks Chorus, Sons of Orpheus, Houston Cecilia Chamber 
+Choir, Resound!, Piping Rock Singers, and the Rice Chorale, including ratings that reflect nothing but my personal opinion.  
+<a href="HSCHistory.htm">Look here</a> for a complete history of the HSC. Grey 
+entries are works performed by these orgranizations that I did not participate in.
+</p>
+
+<p>
+Click on entries in boxes on right 
+to winnow data.  
+Click on the "Year" column header to reverse the order, or in fact on any column header to order by the contents of that column.
+<br>Or download raw data as <a href="HSCHistoryRTC.xls">Excel spreadsheet</a>.
+</p>
+
+
+ <table width="100%">
+         <tr valign="top">
+              <td>
+<!--
+<div data-ex-role="viewPanel">
+-->
+
+<div data-ex-role="exhibit-view"
+data-ex-view-class="Exhibit.TabularView"
+data-ex-label="Chronology"
+data-ex-columns=".label,.Conductor,.Date,.DayMonth,.Soloists,.Comments,.Performed,.Rating"
+data-ex-column-labels="Work,Conductor,Year,Dates,Soloists,Comments,Performed,Rating"
+data-ex-column-formats="list, list, list, list, list, list, list, list"
+data-ex-sort-column="2"
+data-ex-sort-ascending="false"
+data-ex-row-styler="rowStyler"
+>                        
+
+</div>
+
+</td>
+   
+
+
+<td width="2%">
+</td>
+<td width="25%">
+       
+<div data-ex-role="facet" data-ex-expression=".Composer">
+</div>
+<div data-ex-role="facet" data-ex-expression=".Conductor">
+</div>
+<div data-ex-role="facet" data-ex-expression=".Performed">
+</div>
+<div data-ex-role="facet" data-ex-expression=".Decade">
+</div>
+<div data-ex-role="facet" data-ex-expression=".Venue">
+</div>
+<div data-ex-role="facet" data-ex-expression=".ConcertType">
+</div>
+<div data-ex-role="facet" data-ex-expression=".Sponsorship">
+</div>
+<div data-ex-role="facet" data-ex-expression=".TimesPerf">
+</div>
+    
+</td>
+
+</tr>
+</table>
+
+<hr>
+
+
+
+<a href="http://www.rtcutler.com">Cutler Home Page</a>
+
+
+
+</body></html>
+
+<!--
+ <div data-ex-role="exhibit-view"
+           data-ex-viewClass="Exhibit.TileView"
+	   data-ex-label="Works"
+           data-ex-showAll="true"
+           data-ex-orders=".Composer, .Work, .Conductor, .Date">
+       </div>
+       
+<table data-ex-role="exhibit-lens" class="item">
+       =<tr data-ex-background-style-content="if(contains(.TimesPerf, 0), '#ccc', 'white')">
+           <td>      		
+		<span data-ex-content=".Date"></span>&nbsp;
+		<span data-ex-content=".ComposerFirst"></span>&nbsp;  
+		<span data-ex-content=".ComposerLast"></span>&nbsp-&nbsp; 
+		<b><span data-ex-content=".Work"></span></b> 
+		&nbsp;(<span data-ex-content=".Conductor"></span> - <span data-ex-content=".DayMonth"></span>)&nbsp;
+		<font color="gray">
+			<span data-ex-content=".Soloists"></span>&nbsp;
+			<span data-ex-content=".Comments"></span>
+		</font>
+           </td>
+       </tr>
+  </table>
+-->
+<!--
+
+
+</div>
+-->
