@@ -1,0 +1,213 @@
+<html>
+<head>
+<title>JFK Timeline Project | Timeline : LHO 2</title>
+<link rel='stylesheet' href='styles.css' type='text/css' />
+<script src="https://api.simile-widgets.org/timeline/2.3.1/timeline-api.js?bundle=true" type="text/javascript"></script>
+<script>
+var oldFillInfoBubble = Timeline.DefaultEventSource.Event.prototype.fillInfoBubble;
+Timeline.DefaultEventSource.Event.prototype.fillInfoBubble = function(elmt, theme, labeller) {
+var eventObject = this; 
+var div = document.createElement("div"); 
+div.innerHTML = eventObject.getDescription(); 
+div.firstChild.onclick = function() { 
+} 
+elmt.appendChild(div); 
+} 
+</script> 
+<script>
+var tl
+function onLoad() {
+var eventSource = new Timeline.DefaultEventSource();
+var zones = [
+{   start:    "Fri Nov 22 1963 00:00:00 GMT-0600", 
+end:      "Mon Nov 25 1963 00:00:00 GMT-0600", 
+magnify:  10,
+unit:     Timeline.DateTime.DAY
+},
+{   start:    "Fri Nov 22 1963 09:00:00 GMT-0600", 
+end:      "Sun Nov 24 1963 00:00:00 GMT-0600", 
+magnify:  5, 
+unit:     Timeline.DateTime.HOUR
+},
+{   start:    "Fri Nov 22 1963 11:00:00 GMT-0600",
+end:      "Sat Nov 23 1963 00:00:00 GMT-0600",
+magnify:  5,
+unit:     Timeline.DateTime.MINUTE,
+multiple: 10
+},
+{   start:    "Fri Nov 22 1963 12:00:00 GMT-0600",
+end:      "Fri Nov 22 1963 14:00:00 GMT-0600",
+magnify:  3,
+unit:     Timeline.DateTime.MINUTE,
+multiple: 5
+}
+];
+var zones2 = [
+{   start:    "Fri Nov 22 1963 00:00:00 GMT-0600",
+end:      "Mon Nov 25 1963 00:00:00 GMT-0600",
+magnify:  10,
+unit:     Timeline.DateTime.WEEK
+},
+{   start:    "Fri Nov 22 1963 09:00:00 GMT-0600",
+end:      "Sun Nov 24 1963 00:00:00 GMT-0600",
+magnify:  5,
+unit:     Timeline.DateTime.DAY
+},
+{   start:    "Fri Nov 22 1963 11:00:00 GMT-0600",
+end:      "Sat Nov 23 1963 00:00:00 GMT-0600",
+magnify:  5,
+unit:     Timeline.DateTime.MINUTE,
+multiple: 60
+},
+{   start:    "Fri Nov 22 1963 12:00:00 GMT-0600",
+end:      "Fri Nov 22 1963 14:00:00 GMT-0600",
+magnify:  3,
+unit:     Timeline.DateTime.MINUTE,
+multiple: 15
+}
+];
+var theme = Timeline.ClassicTheme.create();
+theme.event.bubble.width = 250;
+var date = "Fri Nov 22 1963 13:00:00 GMT-0600"
+var bandInfos = [
+Timeline.createHotZoneBandInfo({
+width:          "80%", 
+intervalUnit:   Timeline.DateTime.WEEK, 
+intervalPixels: 200,
+zones:          zones,
+eventSource:    eventSource,
+date:           date,
+timeZone:       -6
+}),
+Timeline.createHotZoneBandInfo({
+width:          "20%", 
+intervalUnit:   Timeline.DateTime.MONTH, 
+intervalPixels: 200,
+zones:          zones2, 
+eventSource:    eventSource,
+date:           date, 
+timeZone:       -6,
+overview:       true
+})
+];
+bandInfos[1].syncWith = 0;
+bandInfos[1].highlight = true;
+for (var i = 0; i < bandInfos.length; i++) {
+bandInfos[i].decorators = [
+new Timeline.SpanHighlightDecorator({
+startDate:  "Fri Nov 22 1963 12:30:00 GMT-0600",
+endDate:    "Fri Nov 22 1963 13:00:00 GMT-0600",
+color:      "#FFC080",
+opacity:    50,
+startLabel: "shot",
+endLabel:   "t.o.d.",
+cssClass: 't-highlight1'
+}),
+new Timeline.PointHighlightDecorator({
+date:       "Fri Nov 22 1963 14:38:00 GMT-0600",
+color:      "#FFC080",
+opacity:    50,
+cssClass: 'p-highlight1'
+}),
+new Timeline.PointHighlightDecorator({
+date:       "Sun Nov 24 1963 13:00:00 GMT-0600",
+color:      "#FFC080",
+opacity:    50
+})
+];
+}
+tl = Timeline.create(document.getElementById("tl"), bandInfos, Timeline.HORIZONTAL);
+tl.loadXML("262a.xml", function(xml, url) { eventSource.loadXML(xml, url); });
+}
+var resizeTimerID = null;
+function onResize() {
+if (resizeTimerID == null) {
+resizeTimerID = window.setTimeout(function() {
+resizeTimerID = null;
+tl.layout();
+}, 500);
+}
+}
+function themeSwitch(){
+var timeline = document.getElementById('tl');  
+timeline.className = (timeline.className.indexOf('dark-theme') != -1) ? timeline.className.replace('dark-theme', '') : timeline.className += ' dark-theme';
+}
+</script>
+<style type="text/css">
+.t-highlight1 { background-color: #ccf; }
+.p-highlight1 { background-color: #fcc; }
+.timeline-highlight-label-start .label_t-highlight1 { color: #f00; }
+.timeline-highlight-label-end .label_t-highlight1 { color: #aaf; }
+.timeline-band-events .important { color: #f00; }
+.timeline-band-events .small-important { background: #c00; }
+.dark-theme { color: #eee; }
+.dark-theme .timeline-band-0 .timeline-ether-bg { background-color: #333 }
+.dark-theme .timeline-band-1 .timeline-ether-bg { background-color: #111 }
+.dark-theme .timeline-band-2 .timeline-ether-bg { background-color: #222 }
+.dark-theme .timeline-band-3 .timeline-ether-bg { background-color: #444 }
+.dark-theme .t-highlight1 { background-color: #003; }
+.dark-theme .p-highlight1 { background-color: #300; }
+.dark-theme .timeline-highlight-label-start .label_t-highlight1 { color: #f00; }
+.dark-theme .timeline-highlight-label-end .label_t-highlight1 { color: #115; }
+.dark-theme .timeline-band-events .important { color: #c00; }
+.dark-theme .timeline-band-events .small-important { background: #c00; }
+.dark-theme .timeline-date-label-em { color: #fff; }
+.dark-theme .timeline-ether-lines { border-color: #555; border-style: solid; }
+.dark-theme .timeline-ether-highlight { background: #555; }
+.dark-theme .timeline-event-tape,
+.dark-theme .timeline-small-event-tape { background: #f60; }
+.dark-theme .timeline-ether-weekends { background: #111; }
+</style>
+</head>
+<body onload="onLoad();" onresize="onResize();">
+<ul id="path">
+<li><a href="http://www.jfk-research.org/index.php" target="_blank">JFK Timeline Project</a></li>
+<li><span>Timeline 206</span></li>
+<li><span>LHO 2</span></li>
+</ul>
+<div id="header">
+<h1>JFK Timeline 206: LHO 2</h1>
+<h2>Brought to you by the <a href="http://www.jfk-research.org/g12about.php" target="_blank">JFK Timeline Project</a></h2>
+</div>
+<div id="content">
+<table class="spaced-table" width="100%"><tr>
+<td style="font-size: 150%; color: #888; width: 30em">
+This interactive timeline 206 was generated 2014-07-24 17:29:19
+This is a free-standing timeline built from raw database events.
+Click on each Point Event (blue dot) to link to the Event Profile.
+</td>
+<td valign="bottom" align="right">
+<button onclick="themeSwitch();">Switch theme</button>
+</td>
+</tr></table>
+<div id="tl" class="timeline-default" style="height: 350px; margin-top: 20px; margin-bottom: 50px;"></div>
+<table class="spaced-table"><tr>
+<td width="300">
+<h2>Links</h2>
+<ul>
+<li><a href="jfksearchkey.php">Events</a></li>
+<li><a href="jfksearchname.php">People</a></li>
+<li><a href="jfk_menu_help.php">Evidence</a></li>
+<li><a href="jfksearchtag.php">Hash Tags</a></li>
+<li><a href="jfkbugtrack.php">Bug tracker</a></li>
+<li><a href="g12tconsole.php">Operations</a></li>
+</ul>
+</td>
+<td width="300">
+<h2>Licensing</h2>
+<p>User Shell licensed by <a https://indieheaven.io>Indie Heaven LLC</a> and (c) 2008-2026 Indie Heaven LLC, All Rights Reserved<br><br>Display widgets based on open source software licensed under the 
+<a href="http://www.simile-widgets.org/license.html">BSD license</a>.</p>
+</p>
+<h2>Credits</h2>
+<p>The display widgets were originally sponsored by 
+<a href="http://mellon.org/">The Andrew W. Mellon Foundation</a> 
+as part of the <a href="http://simile.mit.edu/">SIMILE project</a>.
+</p>
+</td>
+</tr></table>
+</div>
+<div id="footer">
+Copyright &copy; <a href="https://jfk-research.org/">JFK Timeline Project</a> 2026 ~ Fair Use and Public Use According To <a href="https://jfk-research.org/g12terms.php">Terms of Use</a>.<br>User Shell Copyright &copy; <a href="https://indieheaven.io/">Indie Heaven LLC</a> 2008-2026 ~ All rights reserved.<br>Copyright &copy; <a href="http://web.mit.edu/">Massachusetts Institute of Technology</a> and Contributors 2006-2026 ~ Some rights reserved
+</div>
+</body>
+</html>
