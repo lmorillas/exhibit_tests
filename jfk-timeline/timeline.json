@@ -1,0 +1,2174 @@
+{
+  "types": {
+    "Event": {
+      "pluralLabel": "Events"
+    }
+  },
+  "properties": {
+    "start": {
+      "valueType": "date"
+    }
+  },
+  "items": [
+    {
+      "type": "Event",
+      "start": "1963-11-22 00:30:00",
+      "label": "Marina Oswald Notices Her Husband Is Still Awake",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1158\" target=\"_blank\">Event 1158 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 02:15:00",
+      "label": "Mary Lawrence Sees LHO At B&B Restaurant",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1161\" target=\"_blank\">Event 1161 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 05:00:00",
+      "label": "Oswald Awake All Night",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1164\" target=\"_blank\">Event 1164 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 07:10:00",
+      "label": "Marina Awakens LHO",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1172\" target=\"_blank\">Event 1172 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 07:55:00",
+      "label": "LHO And Buell Frazier Arrive At Work At The TSBD",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1177\" target=\"_blank\">Event 1177 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 08:01:00",
+      "label": "Oswald Seen At Work At The TSBD",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1179\" target=\"_blank\">Event 1179 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 10:00:00",
+      "label": "Oswald Asks Harold Norman About The Parade",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1199\" target=\"_blank\">Event 1199 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 10:00:00",
+      "label": "LHO May Have Purchased A Sandwich",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1201\" target=\"_blank\">Event 1201 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 12:20:00",
+      "label": "LHO Out Of Lunch Room For Five Minutes",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1280\" target=\"_blank\">Event 1280 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 12:35:00",
+      "label": "Evelyn Harris Claims Jack Ruby Gives Oswald A Gun",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1425\" target=\"_blank\">Event 1425 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 12:36:30",
+      "label": "LHO Thought To Board Bus At Elm And Griffin",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1453\" target=\"_blank\">Event 1453 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 12:36:50",
+      "label": "Oswald Leaves The Bus Near Poydrus",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1454\" target=\"_blank\">Event 1454 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 12:36:55",
+      "label": "Oswald Enters William Whaley's Cab",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1455\" target=\"_blank\">Event 1455 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 12:40:00",
+      "label": "Four Witnesses See Jack Ruby Give Oswald A Pistol",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1471\" target=\"_blank\">Event 1471 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 12:44:00",
+      "label": "LHO Gets Off Bus And Into A Cab",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1482\" target=\"_blank\">Event 1482 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 12:47:00",
+      "label": "LHO Seen At Tidy Lady Launderette",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1503\" target=\"_blank\">Event 1503 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 12:50:30",
+      "label": "LHO Is Not The Only Employee Absent From The TSBD",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1509\" target=\"_blank\">Event 1509 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 12:57:00",
+      "label": "LHO Arrives At His Rooming House",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1527\" target=\"_blank\">Event 1527 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 12:57:49",
+      "label": "Earlene Roberts Says Police Car Honked While LHO Was In Rooming House",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1528\" target=\"_blank\">Event 1528 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 12:59:00",
+      "label": "LHO Changes His Shirt",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1532\" target=\"_blank\">Event 1532 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 13:04:00",
+      "label": "LHO Last Seen By Earlene Roberts",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1533\" target=\"_blank\">Event 1533 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 13:01:00",
+      "label": "Two People See Oswald Walking West",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1558\" target=\"_blank\">Event 1558 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 13:48:00",
+      "label": "LHO Is Arrested At The Texas Theater",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1601\" target=\"_blank\">Event 1601 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 13:48:00",
+      "label": "Oswald Strikes Officer McDonald",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1608\" target=\"_blank\">Event 1608 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 13:48:30",
+      "label": "LHO Arrest At Texas Theater",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1610\" target=\"_blank\">Event 1610 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 13:15:00",
+      "label": "LHO Buys Popcorn From Burroughs",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1620\" target=\"_blank\">Event 1620 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-12-02 12:00:00",
+      "label": "LHO Clipboard Discovered On Sixth Floor TSBD",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1635\" target=\"_blank\">Event 1635 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 13:22:45",
+      "label": "LHO Takes A Seat In The Texas Theater Next To Jack Davis",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1641\" target=\"_blank\">Event 1641 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 13:24:40",
+      "label": "LHO Is Restless In The Texas Theater",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1648\" target=\"_blank\">Event 1648 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 13:43:00",
+      "label": "LHO And The Mysterious Disappearing Pregnant Woman",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1673\" target=\"_blank\">Event 1673 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 17:00:00",
+      "label": "Oswald Tells Capt Fritz He Changed His Clothes At The Boarding House",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1686\" target=\"_blank\">Event 1686 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 13:52:00",
+      "label": "Oswald Arrives At Police Headquarters",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1699\" target=\"_blank\">Event 1699 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 14:50:00",
+      "label": "Oswald Undergoes Paraffin Tests",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1750\" target=\"_blank\">Event 1750 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 15:10:00",
+      "label": "LHO Arrest Broadcast By News Media",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1765\" target=\"_blank\">Event 1765 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 16:15:00",
+      "label": "Oswald Calls Ruth Paine",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1785\" target=\"_blank\">Event 1785 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 16:35:00",
+      "label": "Oswald Taken To First Line-Up",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1796\" target=\"_blank\">Event 1796 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 18:20:00",
+      "label": "Oswald's Second Interrogation Begins",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1824\" target=\"_blank\">Event 1824 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 18:05:00",
+      "label": "LHO Taken To DPD Basement For Second Lineup",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1826\" target=\"_blank\">Event 1826 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 16:57:00",
+      "label": "LHO Escorted Back To Capt Fritz Office After Second Lineup",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1831\" target=\"_blank\">Event 1831 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 19:00:00",
+      "label": "LHO Formally Charged With JD Tippit Murder",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1832\" target=\"_blank\">Event 1832 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 19:40:00",
+      "label": "LHO Third Interrogation Begins",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1850\" target=\"_blank\">Event 1850 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 20:00:00",
+      "label": "Oswald Calls Ruth Paine Again",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1853\" target=\"_blank\">Event 1853 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 21:10:00",
+      "label": "LHO Told He's Been Charged With Tippit Murder",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1875\" target=\"_blank\">Event 1875 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 22:45:00",
+      "label": "LHO Places Long Distance Call To Raleigh NC",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1885\" target=\"_blank\">Event 1885 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1959-03-19 12:00:00",
+      "label": "Oswald Applies To Albert Schweitzer College",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1992\" target=\"_blank\">Event 1992 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1959-06-19 12:00:00",
+      "label": "Oswald Accepts and Pays For Admission To Albert Schweitzer College",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1995\" target=\"_blank\">Event 1995 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1959-08-17 12:00:00",
+      "label": "Oswald Requests Dependency Discharge",
+      "description": "<a href=\"../jfk_edit_event.php?tid=1999\" target=\"_blank\">Event 1999 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1959-09-02 12:00:00",
+      "label": "Oswald Dependency Hardship Discharge Approved",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2000\" target=\"_blank\">Event 2000 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1959-09-11 12:00:00",
+      "label": "Oswald Released From Active Duty",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2004\" target=\"_blank\">Event 2004 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1959-09-19 12:00:00",
+      "label": "Oswald Writes Letter To Mother Stating Europe Trip Imminent",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2005\" target=\"_blank\">Event 2005 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1959-09-19 15:30:00",
+      "label": "Oswald Boards SS Marion Lykes For Le Havre France",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2006\" target=\"_blank\">Event 2006 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1959-10-08 12:00:00",
+      "label": "Oswald Disembarks In Le Havre And Takes Ferry To Southampton England",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2008\" target=\"_blank\">Event 2008 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1959-10-09 12:00:00",
+      "label": "Oswald Goes To Helsinki Finland",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2009\" target=\"_blank\">Event 2009 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1959-10-13 12:00:00",
+      "label": "Oswald Applies For Soviet Union Entrance Visa",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2010\" target=\"_blank\">Event 2010 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1959-10-16 12:00:00",
+      "label": "Oswald Arrives In Moscow From Helsinki By Train",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2012\" target=\"_blank\">Event 2012 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1959-10-16 13:00:00",
+      "label": "Oswald Meets Intourist Guide Rima Shirakova",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2013\" target=\"_blank\">Event 2013 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1959-10-18 12:00:00",
+      "label": "Oswald Celebrates His Twentieth Birthday",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2015\" target=\"_blank\">Event 2015 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1959-10-28 12:00:00",
+      "label": "Oswald Released From Hospital",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2018\" target=\"_blank\">Event 2018 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1959-10-29 12:00:00",
+      "label": "Oswald Advised He May Remain In USSR Pending Final Determination Of Citizenship",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2019\" target=\"_blank\">Event 2019 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1959-10-31 12:00:00",
+      "label": "Oswald Tries To Renounce US Citizenship At US Embassy In Moscow",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2020\" target=\"_blank\">Event 2020 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1959-12-01 00:00:00",
+      "label": "Oswald Granted One Year Temporary Residency In USSR",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2023\" target=\"_blank\">Event 2023 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1960-01-04 12:00:00",
+      "label": "Oswald Issued One-Year Soviet Passport",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2025\" target=\"_blank\">Event 2025 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1960-01-05 12:00:00",
+      "label": "Oswald Goes To Minsk",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2026\" target=\"_blank\">Event 2026 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1960-01-13 12:00:00",
+      "label": "Oswald Begins Work At Gorizont Radio Factory Minsk",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2027\" target=\"_blank\">Event 2027 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1960-08-17 00:00:00",
+      "label": "Oswald Undesirable Discharge Approved",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2070\" target=\"_blank\">Event 2070 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1960-09-13 12:00:00",
+      "label": "Oswald Formally Discharged",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2073\" target=\"_blank\">Event 2073 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1960-12-01 00:00:00",
+      "label": "Oswald Writes Unreceived Letter To US Embassy Saying He Wants To Come Back",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2077\" target=\"_blank\">Event 2077 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1961-01-30 12:00:00",
+      "label": "Oswald Writes Letter To SecNav Connally",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2084\" target=\"_blank\">Event 2084 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-01-17 12:00:00",
+      "label": "LHO Writes Letter Of Affidavit Of Support To US Embassy In Moscow",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2105\" target=\"_blank\">Event 2105 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-06-01 12:00:00",
+      "label": "Oswald Family Leaves USSR",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2114\" target=\"_blank\">Event 2114 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-06-13 20:00:00",
+      "label": "Oswald Family Arrives In NYC",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2115\" target=\"_blank\">Event 2115 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-06-18 12:00:00",
+      "label": "Oswald Hires Pauline Bates To Type Diary",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2118\" target=\"_blank\">Event 2118 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-07-15 12:00:00",
+      "label": "Oswald Family Moves To Fort Worth",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2122\" target=\"_blank\">Event 2122 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-07-17 12:00:00",
+      "label": "Oswald Hired At Leslie Welding Co In Fort Worth",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2123\" target=\"_blank\">Event 2123 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-08-16 12:00:00",
+      "label": "Oswald Again Interviewed By FBI John Fain And Arnold Brown",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2126\" target=\"_blank\">Event 2126 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-10-08 12:00:00",
+      "label": "Oswald Leaves Leslie Welding Without Giving Notice",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2138\" target=\"_blank\">Event 2138 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-10-09 12:00:00",
+      "label": "Oswald Opens PO Box 2915 In Dallas",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2140\" target=\"_blank\">Event 2140 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-10-12 12:00:00",
+      "label": "Oswald Starts Work At Jaggars-Chiles-Stovall",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2141\" target=\"_blank\">Event 2141 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-11-03 12:00:00",
+      "label": "Oswalds Rent 602 Elsbeth In Dallas",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2157\" target=\"_blank\">Event 2157 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-03-02 12:00:00",
+      "label": "Oswalds Move To 214 W Neely St",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2169\" target=\"_blank\">Event 2169 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-04-02 12:00:00",
+      "label": "Oswalds Have Dinner At Paine Residence",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2178\" target=\"_blank\">Event 2178 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-04-05 12:00:00",
+      "label": "Oswald Fired From Jaggars-Chiles-Stovall",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2179\" target=\"_blank\">Event 2179 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-04-11 12:00:00",
+      "label": "Oswald Files Unemployment Claim",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2182\" target=\"_blank\">Event 2182 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-04-16 12:00:00",
+      "label": "Oswald Denied Unemployment",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2183\" target=\"_blank\">Event 2183 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-04-24 00:00:00",
+      "label": "Oswalds Decide To Go To New Orleans",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2187\" target=\"_blank\">Event 2187 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-04-26 12:00:00",
+      "label": "LHO Files For Interstate Claims Support For Unemployment",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2188\" target=\"_blank\">Event 2188 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-04-29 12:00:00",
+      "label": "Oswald Files Dispute With Texas Unemployment From New Orleans",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2189\" target=\"_blank\">Event 2189 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-05-08 12:00:00",
+      "label": "Texas Approves LHO Unemployment Claim",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2190\" target=\"_blank\">Event 2190 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-05-09 12:00:00",
+      "label": "LHO Tells Marina And Ruth He Found A Job",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2191\" target=\"_blank\">Event 2191 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-05-10 12:00:00",
+      "label": "Oswald Finds Job At Reily Coffee Company",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2192\" target=\"_blank\">Event 2192 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-05-12 00:00:00",
+      "label": "Oswalds Forward Mail to 4907 Magazine",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2194\" target=\"_blank\">Event 2194 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-05-25 12:00:00",
+      "label": "Marina Says Lee Is Pressuring Her To Go Back Home",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2196\" target=\"_blank\">Event 2196 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-07-15 12:00:00",
+      "label": "Oswald Family Moves To 2703 Mercedes St Fort Worth",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2197\" target=\"_blank\">Event 2197 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-05-26 12:00:00",
+      "label": "Oswald Writes FPCC Requesting Charter",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2200\" target=\"_blank\">Event 2200 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-05-29 12:00:00",
+      "label": "Hands Off Cuba Fliers Ordered At Jones Printing Co",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2201\" target=\"_blank\">Event 2201 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-06-08 12:00:00",
+      "label": "Dr AJ Hideel Issues Smallpox Vaccination Certificate To Oswald",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2212\" target=\"_blank\">Event 2212 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-06-11 12:00:00",
+      "label": "Oswald Opens PO Box 30061 New Orleans",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2213\" target=\"_blank\">Event 2213 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-06-24 12:00:00",
+      "label": "Oswald Applies For US Passport",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2215\" target=\"_blank\">Event 2215 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-06-25 12:00:00",
+      "label": "Oswald Issued US Passport",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2216\" target=\"_blank\">Event 2216 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-07-01 12:00:00",
+      "label": "Lee Writes To Soviet Embassy For Marina",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2221\" target=\"_blank\">Event 2221 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-07-19 12:00:00",
+      "label": "Oswald Fired From Reilly Coffee Co",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2231\" target=\"_blank\">Event 2231 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-08-07 12:00:00",
+      "label": "Oswald Starts Receiving Unemployment Checks",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2235\" target=\"_blank\">Event 2235 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-08-09 16:00:00",
+      "label": "Oswald Arrested For Disturbing The Peace",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2237\" target=\"_blank\">Event 2237 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-08-10 21:00:00",
+      "label": "Oswald Interrogated By Lt Martello NOPD",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2238\" target=\"_blank\">Event 2238 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-08-10 22:00:00",
+      "label": "Oswald Interviewed By FBI SA Quigley",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2239\" target=\"_blank\">Event 2239 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-08-17 08:00:00",
+      "label": "William Stuckey Visits Oswald",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2241\" target=\"_blank\">Event 2241 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-08-31 12:00:00",
+      "label": "Oswald Writes Socialist Workers Party",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2242\" target=\"_blank\">Event 2242 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-01 12:00:00",
+      "label": "Oswald Writes Communist Party Headquarters NY",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2243\" target=\"_blank\">Event 2243 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-17 12:00:00",
+      "label": "Oswald Issued 15 Day Entrance Visa To Mexico",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2245\" target=\"_blank\">Event 2245 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-26 12:00:00",
+      "label": "Oswald Boards Bus In Nuevo Laredo",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2253\" target=\"_blank\">Event 2253 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-27 09:00:00",
+      "label": "Oswald Arrives In Mexico City",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2255\" target=\"_blank\">Event 2255 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-27 11:00:00",
+      "label": "Oswald Registers At Hotel Comercio",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2256\" target=\"_blank\">Event 2256 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-27 13:00:00",
+      "label": "Oswald Goes To Cuban Consulate Mexico City",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2257\" target=\"_blank\">Event 2257 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-30 12:00:00",
+      "label": "Oswald Purchases Return Bus Ticket From Mexico City",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2258\" target=\"_blank\">Event 2258 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-01 12:00:00",
+      "label": "Oswald Buys Return Bus Ticket To Dallas",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2260\" target=\"_blank\">Event 2260 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-02 07:00:00",
+      "label": "Oswald Leaves Hotel Comercio By Taxi",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2263\" target=\"_blank\">Event 2263 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-02 22:00:00",
+      "label": "Oswald Leaves Mexico City",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2265\" target=\"_blank\">Event 2265 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-03 02:00:00",
+      "label": "LHO Re-Enters The US From Mexico",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2266\" target=\"_blank\">Event 2266 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-03 12:00:00",
+      "label": "Oswald Spends Night At Dallas YMCA",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2268\" target=\"_blank\">Event 2268 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-04 12:00:00",
+      "label": "Oswald Arrives At Ruth Paines To Spend The Weekend",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2269\" target=\"_blank\">Event 2269 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-04 12:00:00",
+      "label": "LHO Turned Down For Work At Padgett Printing Corp",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2270\" target=\"_blank\">Event 2270 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-07 12:00:00",
+      "label": "Oswald Rents Bedroom From Mary Bledsoe",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2273\" target=\"_blank\">Event 2273 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-14 12:00:00",
+      "label": "Oswald Rents 1026 N Beckley",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2279\" target=\"_blank\">Event 2279 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-18 12:00:00",
+      "label": "Oswald's 24th Birthday",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2283\" target=\"_blank\">Event 2283 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-21 12:00:00",
+      "label": "Oswald Visits Marina And Baby At Parkland",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2286\" target=\"_blank\">Event 2286 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-01 12:00:00",
+      "label": "Oswald Opens PO Box 6225 Dallas TX",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2294\" target=\"_blank\">Event 2294 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-01 12:00:01",
+      "label": "Oswald Won't Be Relocating To Baltimore",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2295\" target=\"_blank\">Event 2295 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-02 18:00:00",
+      "label": "Oswald Party Of Ten For Dinner",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2297\" target=\"_blank\">Event 2297 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-09 12:00:00",
+      "label": "Oswald Writes Another Letter To The Soviet Embassy",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2304\" target=\"_blank\">Event 2304 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-16 16:00:00",
+      "label": "Oswald Tries To Get Learners Permit For Driving",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2314\" target=\"_blank\">Event 2314 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-21 17:00:00",
+      "label": "Oswald Asks Buell Frazier For Ride Home",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2325\" target=\"_blank\">Event 2325 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-21 17:45:00",
+      "label": "Oswald Arrives At The Paines",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2326\" target=\"_blank\">Event 2326 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 07:15:00",
+      "label": "Oswald Appears At Randle Kitchen Window",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2330\" target=\"_blank\">Event 2330 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 07:55:00",
+      "label": "Frazier Parks Car In TSBD Employee Lot",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2331\" target=\"_blank\">Event 2331 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 11:50:00",
+      "label": "Oswald Misses The Elevator To Lunch",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2342\" target=\"_blank\">Event 2342 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 12:40:00",
+      "label": "Oswald Boards Cecil McWatters Bus West On Elm St",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2351\" target=\"_blank\">Event 2351 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 12:44:00",
+      "label": "Oswald Gets Off Bus Near Elm And Lamar",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2353\" target=\"_blank\">Event 2353 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 12:50:00",
+      "label": "Oswald Appears At Greyhound Bus Terminal On Lamar",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2355\" target=\"_blank\">Event 2355 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 13:01:00",
+      "label": "Oswald Walks To His Boarding House",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2357\" target=\"_blank\">Event 2357 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 13:52:00",
+      "label": "Oswald Arrested Inside Texas Theater",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2367\" target=\"_blank\">Event 2367 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1961-02-01 12:00:00",
+      "label": "Oswald Makes First Formal Request For Repatriation",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2400\" target=\"_blank\">Event 2400 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1961-03-10 12:00:00",
+      "label": "Oswald Tells US Tourist He Despises America",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2418\" target=\"_blank\">Event 2418 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-03-18 12:00:00",
+      "label": "Oswald Writes About Marina In His Diary",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2424\" target=\"_blank\">Event 2424 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1961-03-30 12:00:00",
+      "label": "Oswald Has Tonsillectomy",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2429\" target=\"_blank\">Event 2429 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1961-04-01 12:00:00",
+      "label": "Oswald Writes In Diary About Proposing To Marina",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2433\" target=\"_blank\">Event 2433 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1961-04-03 12:00:00",
+      "label": "Oswald Writes Of Marriage Details In Diary",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2434\" target=\"_blank\">Event 2434 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-04-11 12:00:00",
+      "label": "LHO Discharged From Hospital In Minsk",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2441\" target=\"_blank\">Event 2441 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1961-04-15 12:00:00",
+      "label": "LHO Proposes To Marina",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2449\" target=\"_blank\">Event 2449 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1961-04-30 12:00:00",
+      "label": "LHO Marries Marina",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2479\" target=\"_blank\">Event 2479 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1961-05-01 12:00:00",
+      "label": "LHO Writes Of Difficult Romantic Transition In Diary",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2485\" target=\"_blank\">Event 2485 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1961-05-01 12:00:00",
+      "label": "Oswald Writes He Married Marina To Hurt Ella",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2486\" target=\"_blank\">Event 2486 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1961-05-16 12:00:00",
+      "label": "Oswald Asks US Government Not To Persecute",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2494\" target=\"_blank\">Event 2494 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1961-06-01 12:00:00",
+      "label": "Oswald Forgets About Ella",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2511\" target=\"_blank\">Event 2511 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1961-07-01 12:00:00",
+      "label": "Oswald Travels To Moscow For Vacation And American Embassy",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2527\" target=\"_blank\">Event 2527 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1961-07-08 12:00:00",
+      "label": "Oswald Flies To Moscow To Retrieve His Passport",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2536\" target=\"_blank\">Event 2536 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1961-07-10 12:00:00",
+      "label": "Oswald Still US Citizen On Technicality",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2537\" target=\"_blank\">Event 2537 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1961-07-15 12:00:00",
+      "label": "Oswald Says 20 Papers Needed To Exit USSR",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2545\" target=\"_blank\">Event 2545 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1961-08-21 12:00:00",
+      "label": "Oswald Making Repeated Passport Trips To Soviet Ministries",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2567\" target=\"_blank\">Event 2567 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1961-09-22 12:00:00",
+      "label": "LHO Claims Marina Hospitalized For Nervous Exhaustion",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2580\" target=\"_blank\">Event 2580 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1961-10-04 12:00:00",
+      "label": "Oswald Claims Soviets Trying To Intimidate Marina",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2585\" target=\"_blank\">Event 2585 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1961-12-11 12:00:00",
+      "label": "Oswald Gets Unsatisfactory Work Report From Minsk Factory",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2605\" target=\"_blank\">Event 2605 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1961-12-25 12:00:00",
+      "label": "Oswalds Granted Soviet Exit Visas",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2611\" target=\"_blank\">Event 2611 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1961-12-25 17:00:00",
+      "label": "LHO Relieved At News From Marina",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2612\" target=\"_blank\">Event 2612 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-01-02 12:00:00",
+      "label": "Oswald Residential Passport Expires",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2618\" target=\"_blank\">Event 2618 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-01-16 12:00:00",
+      "label": "Oswald Tells American Embassy He Wont Leave Without Marina",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2624\" target=\"_blank\">Event 2624 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-01-30 12:00:00",
+      "label": "Oswald Writes Angry Letter To John Connally",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2625\" target=\"_blank\">Event 2625 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-02-28 12:00:00",
+      "label": "Oswalds Register Their Baby",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2638\" target=\"_blank\">Event 2638 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-03-01 12:00:00",
+      "label": "Oswald Completes Repatriation Paperwork",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2639\" target=\"_blank\">Event 2639 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-03-27 12:00:00",
+      "label": "Oswald Finds A Repatriation Sponsor",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2650\" target=\"_blank\">Event 2650 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-05-24 12:00:00",
+      "label": "Oswald Asks Mother For Photos Of Themselves",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2673\" target=\"_blank\">Event 2673 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-06-01 12:00:00",
+      "label": "Oswald Signs Note For Repatriation Loan",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2678\" target=\"_blank\">Event 2678 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-06-04 12:00:00",
+      "label": "Oswalds Leave For US",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2682\" target=\"_blank\">Event 2682 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-06-13 10:00:00",
+      "label": "Oswalds Arrive In Hoboken",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2685\" target=\"_blank\">Event 2685 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-06-13 23:59:00",
+      "label": "Oswald Flight Stops In Atlanta",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2687\" target=\"_blank\">Event 2687 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-07-16 09:00:00",
+      "label": "Oswald Employed At Leslie Welding",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2694\" target=\"_blank\">Event 2694 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-07-17 12:00:00",
+      "label": "Oswald Changes Address In Ft Worth",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2695\" target=\"_blank\">Event 2695 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-07-27 12:00:00",
+      "label": "LHO In Mobile Alabama",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2702\" target=\"_blank\">Event 2702 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-08-01 12:00:00",
+      "label": "Oswald Writes To Navy About Discharge",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2703\" target=\"_blank\">Event 2703 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-08-05 12:00:00",
+      "label": "Oswald Begins Subscription To The Worker",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2712\" target=\"_blank\">Event 2712 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-08-21 12:00:00",
+      "label": "Oswald And Bringuier Appear On Stuckey Radio Show",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2721\" target=\"_blank\">Event 2721 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-10-10 12:00:00",
+      "label": "Oswald Interviewed At Texas Employment Commission",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2776\" target=\"_blank\">Event 2776 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-10-11 12:00:00",
+      "label": "LHO Finds Work At Jaggars-Chiles-Stovall",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2778\" target=\"_blank\">Event 2778 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-10-15 12:00:00",
+      "label": "Oswald Stays At Dallas YMCA",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2785\" target=\"_blank\">Event 2785 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-10-28 12:00:00",
+      "label": "LHO Begins To Woo Marina Back",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2804\" target=\"_blank\">Event 2804 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-10-30 12:00:00",
+      "label": "LHO Applies To Socialist Workers Party",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2807\" target=\"_blank\">Event 2807 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-11-04 12:00:00",
+      "label": "Oswalds Rent 604 Elsbeth",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2814\" target=\"_blank\">Event 2814 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-11-22 12:00:00",
+      "label": "Oswald Family Spends Thanksgiving Without Marguerite",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2824\" target=\"_blank\">Event 2824 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-12-01 12:00:00",
+      "label": "Oswald Sends Christmas Card To Soviet Embassy In Washington DC",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2827\" target=\"_blank\">Event 2827 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-12-06 12:00:00",
+      "label": "LHO Sends Photos To Socialist Workers Party",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2832\" target=\"_blank\">Event 2832 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-12-15 12:00:00",
+      "label": "Oswald Pays For Subscription To The Militant",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2834\" target=\"_blank\">Event 2834 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-12-28 12:00:00",
+      "label": "Oswalds Attend White Russian Party",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2838\" target=\"_blank\">Event 2838 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-01-01 12:00:00",
+      "label": "Oswald Fills Out Order Form For Pistol",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2844\" target=\"_blank\">Event 2844 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-01-01 12:00:00",
+      "label": "Oswald Repays State Department Loan",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2845\" target=\"_blank\">Event 2845 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-01-27 12:00:00",
+      "label": "LHO Uses Hidell Alias For The First Time",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2857\" target=\"_blank\">Event 2857 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-02-02 21:00:00",
+      "label": "Oswalds Meet Ruth Paine At Glover Party",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2861\" target=\"_blank\">Event 2861 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-02-12 12:00:00",
+      "label": "LHO Meets Volkmar Schmidt",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2869\" target=\"_blank\">Event 2869 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-03-12 12:00:00",
+      "label": "Oswald Orders Rifle By Mail",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2881\" target=\"_blank\">Event 2881 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-03-24 12:00:00",
+      "label": "LHO Writes Again To Socialist Workers Party",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2888\" target=\"_blank\">Event 2888 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-03-25 12:00:00",
+      "label": "LHO Picks Up Rifle At Post Office",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2889\" target=\"_blank\">Event 2889 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-03-31 12:00:00",
+      "label": "Oswald Backyard Photos Allegedly Taken",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2896\" target=\"_blank\">Event 2896 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-03-31 12:00:00",
+      "label": "Oswald Allegedly Posing As Cuban Exile",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2897\" target=\"_blank\">Event 2897 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-04-01 12:00:00",
+      "label": "Oswald Fired From Jaggars Chiles Stovall",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2898\" target=\"_blank\">Event 2898 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-04-02 17:00:00",
+      "label": "Oswald Has Dinner With Marina And The Paines",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2902\" target=\"_blank\">Event 2902 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-04-05 15:00:00",
+      "label": "Oswald Leaves House With Rifle",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2910\" target=\"_blank\">Event 2910 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-04-13 12:00:00",
+      "label": "LHO Supposedly Buries Rifles After Walker Shooting",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2924\" target=\"_blank\">Event 2924 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-04-14 12:00:00",
+      "label": "Oswald Supposedly Retrieves Buried Rifle",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2925\" target=\"_blank\">Event 2925 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-04-15 12:00:00",
+      "label": "Oswald Files Only Full Year Tax Return Ever",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2926\" target=\"_blank\">Event 2926 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-04-16 12:00:00",
+      "label": "Oswald Unemployment Claim Rejected",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2927\" target=\"_blank\">Event 2927 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-04-16 21:00:00",
+      "label": "Oswald Writes FPCC Headquarters In NY",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2928\" target=\"_blank\">Event 2928 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-04-24 12:00:00",
+      "label": "Oswald Goes To New Orleans",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2943\" target=\"_blank\">Event 2943 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-04-25 12:00:00",
+      "label": "LHO Arrives In New Orleans",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2948\" target=\"_blank\">Event 2948 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-04-29 12:00:00",
+      "label": "LHO Contests Unemployment Rejection",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2955\" target=\"_blank\">Event 2955 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-05-09 12:00:00",
+      "label": "LHO Gets Job At William B Reily Co",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2966\" target=\"_blank\">Event 2966 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-05-14 12:00:00",
+      "label": "LHO Informs FPCC Of New Address",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2973\" target=\"_blank\">Event 2973 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-05-24 12:00:00",
+      "label": "LHO Renews Subscription To The Militant",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2978\" target=\"_blank\">Event 2978 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-05-26 12:00:00",
+      "label": "LHO Asks FPCC For Permission To Start New Orleans Chapter",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2980\" target=\"_blank\">Event 2980 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-05-29 12:00:00",
+      "label": "Oswald Orders FPCC Handbills",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2984\" target=\"_blank\">Event 2984 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-06-02 12:00:00",
+      "label": "LHO Checks Out Books From Library",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2991\" target=\"_blank\">Event 2991 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-06-03 12:00:00",
+      "label": "LHO Opens New PO Box In Own Name",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2992\" target=\"_blank\">Event 2992 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-06-04 12:00:00",
+      "label": "LHO Gets Hands Off Cuba Flyers",
+      "description": "<a href=\"../jfk_edit_event.php?tid=2994\" target=\"_blank\">Event 2994 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-06-08 12:00:00",
+      "label": "Oswald Forges Own Smallpox Vaccination Certificate",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3004\" target=\"_blank\">Event 3004 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-06-09 12:00:00",
+      "label": "Oswald Buys Stamp Kit For Hands Off Cuba Handbills",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3006\" target=\"_blank\">Event 3006 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-06-16 12:00:00",
+      "label": "Oswald Passes Out Handbills Near USS Wasp",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3011\" target=\"_blank\">Event 3011 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-06-24 12:00:00",
+      "label": "LHO Applies For Passport",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3021\" target=\"_blank\">Event 3021 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-06-25 12:00:00",
+      "label": "LHO Receives His Passport",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3023\" target=\"_blank\">Event 3023 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-07-01 12:00:00",
+      "label": "LHO Asks Marina To Write Soviet Embassy Again",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3029\" target=\"_blank\">Event 3029 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-07-19 12:00:00",
+      "label": "Oswald Loses Job At Reilly Coffee",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3033\" target=\"_blank\">Event 3033 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-07-27 12:00:00",
+      "label": "LHO Speaks To Jesuits In Mobile AL",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3037\" target=\"_blank\">Event 3037 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-08-05 12:00:00",
+      "label": "LHO Seeks Out Carlos Bringuier",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3053\" target=\"_blank\">Event 3053 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-08-06 12:00:00",
+      "label": "LHO Returns To Bringuier Store",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3056\" target=\"_blank\">Event 3056 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-08-07 12:00:00",
+      "label": "Oswald Seen In Habana Bar",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3059\" target=\"_blank\">Event 3059 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-08-08 12:00:00",
+      "label": "LHO Seen At Orest Pena Bar",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3060\" target=\"_blank\">Event 3060 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-08-09 12:00:00",
+      "label": "LHO Arrested In New Orleans",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3062\" target=\"_blank\">Event 3062 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-08-09 12:00:00",
+      "label": "LHO Search Shows No Selective Service Card",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3063\" target=\"_blank\">Event 3063 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-08-10 12:00:00",
+      "label": "John Quigley Files Oswald Interview Report",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3067\" target=\"_blank\">Event 3067 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-08-12 12:00:00",
+      "label": "Oswald Pays Ten Dollar Fine In Court",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3072\" target=\"_blank\">Event 3072 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-08-14 12:00:00",
+      "label": "LHO Passes Out Flyers At Trade Mart",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3074\" target=\"_blank\">Event 3074 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-08-16 12:00:00",
+      "label": "LHO Pays People To Help Him Hand Out Leaflets",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3076\" target=\"_blank\">Event 3076 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-08-21 12:00:00",
+      "label": "Oswald Debates Carlos Bringuier And Ed Butler On The Radio",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3084\" target=\"_blank\">Event 3084 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-08-21 12:00:00",
+      "label": "LHO Becomes Invisible",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3085\" target=\"_blank\">Event 3085 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-08-26 12:00:00",
+      "label": "LHO Seen With David Ferrie And Clay Shaw",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3093\" target=\"_blank\">Event 3093 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-02 12:00:00",
+      "label": "Oswald Visits Charles Murret",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3110\" target=\"_blank\">Event 3110 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-16 12:00:00",
+      "label": "LHO Signature Found In Wisconsin Hotel Register",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3134\" target=\"_blank\">Event 3134 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-17 12:00:00",
+      "label": "LHO Applies For Tourist Card At NOLA Mexican Consulate",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3138\" target=\"_blank\">Event 3138 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-23 12:00:00",
+      "label": "Oswald Supposedly Meets Kostikov In Mexico City",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3144\" target=\"_blank\">Event 3144 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-24 12:00:00",
+      "label": "LHO Seen Leaving Apartment With Two Suitcases",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3151\" target=\"_blank\">Event 3151 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-25 13:20:00",
+      "label": "LHO Appears At Selective Service Office In Texas",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3155\" target=\"_blank\">Event 3155 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-25 12:00:00",
+      "label": "LHO Cashes Unemployment Check In New Orleans",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3156\" target=\"_blank\">Event 3156 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-25 12:00:00",
+      "label": "Oswald Sits Next To Albert Osborne On Bus",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3157\" target=\"_blank\">Event 3157 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-26 12:00:00",
+      "label": "Silvia Odio Supposedly Meets Oswald",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3161\" target=\"_blank\">Event 3161 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-26 12:00:00",
+      "label": "LHO Crosses Mexican Border At Nuevo Laredo",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3162\" target=\"_blank\">Event 3162 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-26 12:00:00",
+      "label": "LHO Buys Clothing In Laredo TX",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3163\" target=\"_blank\">Event 3163 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-27 12:00:00",
+      "label": "LHO Registers At Hotel Comercio",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3168\" target=\"_blank\">Event 3168 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-28 12:00:00",
+      "label": "Oswald Sights Rifle At Sports Drome",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3170\" target=\"_blank\">Event 3170 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-28 12:00:00",
+      "label": "LHO Returns To Cuban Embassy",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3171\" target=\"_blank\">Event 3171 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-30 12:00:00",
+      "label": "Oswald Supposedly Returns To Russian Embassy",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3177\" target=\"_blank\">Event 3177 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-01 12:00:00",
+      "label": "LHO Allegedly Calls Soviet Consulate In Mexico City",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3181\" target=\"_blank\">Event 3181 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-02 12:00:00",
+      "label": "Oswald Returns To Dallas",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3188\" target=\"_blank\">Event 3188 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-02 08:30:00",
+      "label": "LHO Departs Mexico City By Bus",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3189\" target=\"_blank\">Event 3189 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-03 14:20:00",
+      "label": "LHO Arrives In Dallas By Bus",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3190\" target=\"_blank\">Event 3190 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-03 12:00:00",
+      "label": "LHO Stays At Dallas YMCA",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3192\" target=\"_blank\">Event 3192 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-04 12:00:00",
+      "label": "Carroll Jarnigan Overheads Ruby And LHO Talking",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3196\" target=\"_blank\">Event 3196 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-04 12:00:00",
+      "label": "Oswald Applies For Work At Padgett Printing Co",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3197\" target=\"_blank\">Event 3197 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-04 12:00:00",
+      "label": "Oswald Seen Driving A Car",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3198\" target=\"_blank\">Event 3198 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-07 12:00:00",
+      "label": "LHO Rents Room From Mary Bledsoe In Own Name",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3215\" target=\"_blank\">Event 3215 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-09 12:00:00",
+      "label": "LHO Rents New PO Box In Dallas",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3218\" target=\"_blank\">Event 3218 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-14 12:00:00",
+      "label": "Oswald Moves To Beckley",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3232\" target=\"_blank\">Event 3232 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-15 12:00:00",
+      "label": "Oswald Interviews With Roy Truly",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3236\" target=\"_blank\">Event 3236 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-16 12:00:00",
+      "label": "LHO First Day At Work In TSBD",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3237\" target=\"_blank\">Event 3237 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-18 12:00:00",
+      "label": "LHO 24th Birthday",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3241\" target=\"_blank\">Event 3241 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-22 12:00:00",
+      "label": "Oswald Rides To Work With Buell Frazier",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3250\" target=\"_blank\">Event 3250 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-23 12:00:00",
+      "label": "LHO DD-1173 Supposedly Postmarked Today",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3253\" target=\"_blank\">Event 3253 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-25 12:00:00",
+      "label": "Oswald Rides To Irving With Buell Frazier",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3261\" target=\"_blank\">Event 3261 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-29 12:00:00",
+      "label": "LHO Receives Money Order Addressed To Dallas YMCA",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3276\" target=\"_blank\">Event 3276 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-01 12:00:00",
+      "label": "Oswald Rents New PO Box In Dallas",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3298\" target=\"_blank\">Event 3298 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-02 12:00:00",
+      "label": "LHO Posts Change Of Address Cards",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3311\" target=\"_blank\">Event 3311 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-02 12:00:00",
+      "label": "LHO Enters Gun Shop To Get Firing Pin Repaired",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3312\" target=\"_blank\">Event 3312 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-04 12:00:00",
+      "label": "Oswald Picks Up Several Money Orders At Western Union",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3316\" target=\"_blank\">Event 3316 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1964-11-06 12:00:00",
+      "label": "LHO Takes Rifle To Sports Shop To Mount Scope",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3321\" target=\"_blank\">Event 3321 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-06 17:00:00",
+      "label": "LHO Visits Public Library",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3330\" target=\"_blank\">Event 3330 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-07 12:00:00",
+      "label": "Oswald Visits Gun And Furniture Shop In Dallas",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3333\" target=\"_blank\">Event 3333 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-07 12:00:00",
+      "label": "LHO Visits FBI Dallas Office",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3336\" target=\"_blank\">Event 3336 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-09 12:00:00",
+      "label": "LHO Sends Strange Letter To Russian Embassy",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3347\" target=\"_blank\">Event 3347 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-10 12:00:00",
+      "label": "LHO Stays In Irving With Marina",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3358\" target=\"_blank\">Event 3358 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-12 12:00:00",
+      "label": "Oswald Leaves Note For James Hosty",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3362\" target=\"_blank\">Event 3362 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-12 12:00:00",
+      "label": "LHO Rides To Work With Wesley Frazier",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3363\" target=\"_blank\">Event 3363 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-15 12:00:00",
+      "label": "LHO Stays In Dallas",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3383\" target=\"_blank\">Event 3383 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-16 12:00:00",
+      "label": "LHO Fires Italian Rifle With Remarkable Accuracy",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3386\" target=\"_blank\">Event 3386 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-16 12:00:00",
+      "label": "LHO Observed Firing Italian Rifle With Remarkable Accuracy",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3387\" target=\"_blank\">Event 3387 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-16 12:00:00",
+      "label": "Oswald Makes Second Attempt To Get Drivers License",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3388\" target=\"_blank\">Event 3388 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-16 12:00:00",
+      "label": "LHO Interviewed By FBI",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3393\" target=\"_blank\">Event 3393 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-18 12:00:00",
+      "label": "LHO Calls Russian Embassy In Washington DC",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3407\" target=\"_blank\">Event 3407 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-21 07:00:00",
+      "label": "LHO Has Breakfast At Dobbs Restaurant",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3452\" target=\"_blank\">Event 3452 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-21 15:00:00",
+      "label": "LHO Asks Frazier For Ride Home",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3457\" target=\"_blank\">Event 3457 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-21 17:00:00",
+      "label": "LHO Catches Ride Home With Buell Frazier",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3489\" target=\"_blank\">Event 3489 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-21 18:05:00",
+      "label": "LHO And Marina Quarrel",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3492\" target=\"_blank\">Event 3492 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-23 00:01:00",
+      "label": "LHO Faces Press For The First Time",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3514\" target=\"_blank\">Event 3514 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-23 00:20:00",
+      "label": "LHO Placed In Maximum Security Cell",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3516\" target=\"_blank\">Event 3516 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-23 00:20:00",
+      "label": "Mary Lawrence Sees Jack Ruby And LHO Look-Alikes",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3517\" target=\"_blank\">Event 3517 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-23 00:23:00",
+      "label": "LHO Fingerprinted For Second Time",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3518\" target=\"_blank\">Event 3518 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-23 10:30:00",
+      "label": "LHO Taken To Fritz Office For Interrogation",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3560\" target=\"_blank\">Event 3560 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-23 11:33:00",
+      "label": "LHO Returned To Jail Cell",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3563\" target=\"_blank\">Event 3563 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-23 12:35:00",
+      "label": "LHO Again Interrogated By Fritz",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3585\" target=\"_blank\">Event 3585 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-23 13:10:00",
+      "label": "LHO Again Returned To Jail Cell",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3586\" target=\"_blank\">Event 3586 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-23 13:10:00",
+      "label": "LHO Visited By Marina And Marguerite",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3587\" target=\"_blank\">Event 3587 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-23 14:10:00",
+      "label": "LHO Taken To His Fourth Lineup",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3595\" target=\"_blank\">Event 3595 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-23 14:30:00",
+      "label": "LHO Returned To Jail Cell After Fourth Lineup",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3598\" target=\"_blank\">Event 3598 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-23 15:40:00",
+      "label": "LHO Calls Mrs Ruth Paine",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3603\" target=\"_blank\">Event 3603 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-23 20:15:00",
+      "label": "LHO Back In Jail Cell",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3617\" target=\"_blank\">Event 3617 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-24 11:19:00",
+      "label": "LHO Goes To DPD Basement In Elevator",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3664\" target=\"_blank\">Event 3664 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-24 11:20:30",
+      "label": "LHO Brought To Basement",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3669\" target=\"_blank\">Event 3669 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-24 11:21:00",
+      "label": "Jack Ruby Shoots Lee Harvey Oswald",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3672\" target=\"_blank\">Event 3672 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-24 11:22:00",
+      "label": "Oswald Shooting Seen Live At The White House",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3679\" target=\"_blank\">Event 3679 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-25 11:15:00",
+      "label": "LHO Buried At Rose Hill Cemetery",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3726\" target=\"_blank\">Event 3726 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-04-25 13:00:00",
+      "label": "Oswald Moves In With Lillian Murret",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3758\" target=\"_blank\">Event 3758 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-04-26 12:00:00",
+      "label": "Oswald Visits Unemployment Office In New Orleans",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3759\" target=\"_blank\">Event 3759 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-04-28 12:00:00",
+      "label": "LHO Contacts Relatives On Fathers Side",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3760\" target=\"_blank\">Event 3760 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-04-29 12:00:00",
+      "label": "Oswald Files Appeal About Unemployment Benefits",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3761\" target=\"_blank\">Event 3761 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-05-09 12:00:00",
+      "label": "Myrtle Evans Helps LHO Find Work",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3762\" target=\"_blank\">Event 3762 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-05-10 12:00:00",
+      "label": "LHO Moves Into 4905 Magazine",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3763\" target=\"_blank\">Event 3763 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-07-06 12:00:00",
+      "label": "LHO Invited To Speak To Jesuits",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3765\" target=\"_blank\">Event 3765 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-25 19:00:00",
+      "label": "LHO Calls Harry Twiford",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3767\" target=\"_blank\">Event 3767 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-26 12:00:00",
+      "label": "Oswald Inventory From Paine House Completed",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3780\" target=\"_blank\">Event 3780 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-28 00:00:00",
+      "label": "Oswald Palm Print Arrives At FBI Lab",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3822\" target=\"_blank\">Event 3822 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-29 00:00:00",
+      "label": "LHO Letter Delivered To Arnold Johnson",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3839\" target=\"_blank\">Event 3839 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-08-17 20:00:00",
+      "label": "Oswald Appears On WDSU Latin Listening Post",
+      "description": "<a href=\"../jfk_edit_event.php?tid=3903\" target=\"_blank\">Event 3903 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1957-09-13 12:00:00",
+      "label": "Oswald Reports To Atsugi",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4029\" target=\"_blank\">Event 4029 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 07:10:00",
+      "label": "LHO Rushes To Dress For Work",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4107\" target=\"_blank\">Event 4107 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 07:13:00",
+      "label": "LHO Leaves Items For Marina",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4109\" target=\"_blank\">Event 4109 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 12:33:30",
+      "label": "Two Women See Jack Ruby Give LHO A Pistol",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4191\" target=\"_blank\">Event 4191 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-23 00:00:00",
+      "label": "Oswald Returns Library Books To New Orleans Library",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4201\" target=\"_blank\">Event 4201 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-23 00:00:00",
+      "label": "Oswald Packs Belongings Into Ruth Paines Station Wagon",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4202\" target=\"_blank\">Event 4202 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-23 00:00:00",
+      "label": "Oswald Leaves Magazine St Apt Before Dawn With Two Suitcases",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4204\" target=\"_blank\">Event 4204 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-24 00:00:00",
+      "label": "Oswald At NOLA Unemployment Claims Office",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4206\" target=\"_blank\">Event 4206 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-24 00:00:00",
+      "label": "Oswald Closes PO Box In NOLA",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4207\" target=\"_blank\">Event 4207 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-25 00:00:00",
+      "label": "Oswald Check Cashed At Winn-Dixie Store",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4211\" target=\"_blank\">Event 4211 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-25 00:00:00",
+      "label": "Oswald Buys Spanish Dictionary",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4212\" target=\"_blank\">Event 4212 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-25 00:00:00",
+      "label": "Oswald Leaves NOLA By Bus For Houston",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4213\" target=\"_blank\">Event 4213 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-25 00:00:00",
+      "label": "Oswald Calls Socialist Labor Party In Houston",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4214\" target=\"_blank\">Event 4214 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-25 00:00:00",
+      "label": "Oswald Meets Mrs Dannelly In Selective Service Office In Austin",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4215\" target=\"_blank\">Event 4215 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-26 02:35:00",
+      "label": "Oswald Departs From Houston For Mexico City",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4216\" target=\"_blank\">Event 4216 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-26 00:00:00",
+      "label": "Oswald NOLA Po Box Is Closed",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4218\" target=\"_blank\">Event 4218 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-26 00:00:00",
+      "label": "Oswald Buys 32 Dollars Of Clothing In Laredo",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4219\" target=\"_blank\">Event 4219 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-09-26 00:00:00",
+      "label": "Oswald Crosses Border At Laredo",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4220\" target=\"_blank\">Event 4220 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-23 01:30:00",
+      "label": "LHO Arraigned For Murder Of President Kennedy",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4349\" target=\"_blank\">Event 4349 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 23:59:00",
+      "label": "Mary Lawrence Sees Jack Ruby With LHO",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4358\" target=\"_blank\">Event 4358 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-07 00:00:00",
+      "label": "Jack Ruby Introduces Beverly Oliver And Jada To LHO",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4380\" target=\"_blank\">Event 4380 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-11-22 18:00:00",
+      "label": "Ruby Says He'll Be Closed For Three Days",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4407\" target=\"_blank\">Event 4407 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1977-04-12 00:00:00",
+      "label": "Midnight Discovers How Oswald New The Motorcade Route",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4659\" target=\"_blank\">Event 4659 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-15 00:00:00",
+      "label": "Oswald Gets Job As Cargo Handler At Love Field",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4660\" target=\"_blank\">Event 4660 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-15 00:00:00",
+      "label": "Oswald Discovers Motorcade Route",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4661\" target=\"_blank\">Event 4661 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-01 00:00:00",
+      "label": "Oswald Linked To Sam Bloom Agency",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4662\" target=\"_blank\">Event 4662 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-10-20 00:00:00",
+      "label": "Joseph Hummel Sees LHO At Dallas YMCA",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4702\" target=\"_blank\">Event 4702 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-08-09 15:00:00",
+      "label": "Oswald Passes Out Leaflets With 544 Camp St Address",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4748\" target=\"_blank\">Event 4748 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-06-13 16:00:00",
+      "label": "Oswalds Interviewed By INS Inspector Wiederscheim",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4750\" target=\"_blank\">Event 4750 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-07-31 00:00:00",
+      "label": "Oswald Tries To Apply At TCU",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4751\" target=\"_blank\">Event 4751 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1959-01-31 00:00:00",
+      "label": "Oswald Fails USMC Proficiency Test In Russian",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4752\" target=\"_blank\">Event 4752 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1962-12-31 00:00:00",
+      "label": "Oswald Repays Half Of State Dept Repatriation Loan",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4753\" target=\"_blank\">Event 4753 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "1963-04-25 12:00:00",
+      "label": "Oswald Arrives In New Orleans",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4754\" target=\"_blank\">Event 4754 Profile</a>"
+    },
+    {
+      "type": "Event",
+      "start": "-0001-11-30 00:00:00",
+      "label": "LHO Public Test Bucket 2a",
+      "description": "<a href=\"../jfk_edit_event.php?tid=4761\" target=\"_blank\">Event 4761 Profile</a>"
+    }
+  ]
+}
